@@ -5,6 +5,16 @@
 
 A  metodologia  contempla  as  definições  de  ferramental  utilizado  pela  equipe  tanto  para  a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
+## Relação de Ambientes de Trabalho
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+
+Ambiente  | Plataforma  | Link de Acesso
+--------- | ----------- | ---------------
+Repositório de código fonte  | GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas
+Documentos do projeto        | GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/tree/main/docs
+Projeto de Interface e  Wireframes | MarvelApp  | https://marvelapp.com/prototype/5ee8e90
+Gerenciamento do Projeto  | GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/projects
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -55,7 +65,6 @@ Apresente a divisão de papéis entre os membros do grupo.
 ##UX/UI Designer
  - Hugo Kioshi Ito
 
-##QA
 
 
 > **Links Úteis**:
