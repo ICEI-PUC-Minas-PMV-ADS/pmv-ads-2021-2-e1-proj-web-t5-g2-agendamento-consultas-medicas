@@ -1,4 +1,4 @@
-# VirtualMed - Sistema de agendamento online de consultas médicas 
+# VirtualMed 
 
 **Analise e Desenvolvimento de sistemas**
 
