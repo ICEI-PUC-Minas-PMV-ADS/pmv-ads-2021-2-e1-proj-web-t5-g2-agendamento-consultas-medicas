@@ -57,23 +57,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|-----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-|RF-01| **Login** - O site deve permitir que o usuário realize login utilizando o email, telefone e a senha cadastrados.                                                               |Alta | 
+|-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
+|RF-01| **Login** - O site deve permitir que o usuário realize login utilizando o email, telefone e a senha cadastrados.                                                     |Alta | 
 |RF-02| **Cadastro Usuário e Senha** - O site deve gerenciar o usuário.                                                                                                     |Média|
-|RF-03|**Tipos de Cadastro** - O site deve possuir 3 usuários diferentes, sendo: Médico, Clínica e Paciente.                                                                 |Alta | 
-|RF-04| **Cadastro Médico** - O site deve permitir que a secretária realize o cadastro médico preenchendo os requisitos: Nome, CRM, Data Nascimento, Senha, e-mail, Telefone, Especialidade, Agenda, valor das consultas e convênios aceitos.                                                                                                             |Alta |
-|RF-05| **Cadastro Clínicas** -O site deve permitir que a secretária  cadastre na clínica vinculando seus médicos e preenchendo os requisitos: Endereço, CNPJ, Razão Social, telefone de contato, Senha e e-mail.                                                                                                                                         |Alta |                                                                              
-|RF-06| **Cadastro Paciente** -O site deve permitir que os pacientes se cadastrem, preenchendo os requisitos: Nome, Data Nascimento, Endereço, CPF, Telefone.               |Alta |
-|RF-07| **Agendamento de Consulta** - O site deve permitir que o paciente/secretária agende consultas.                                                                   |Alta |
-|RF-08|**Cancelamento de consulta** - O site deve permitir que o paciente/secretária/administrador cancele consultas. 
-|RF-09| **Consultar Histórico** - O site deve permitir a visualização ou relatório com histórico do paciente/médico/clínica.                                                 |Alta |
-|RF-10| **Consultar Médicos** - O site deve permitir a visualização ou relatório com informações de horário de atendimento, data e avaliações de pacientes referente a consulta.                                                                                                                                                                   |Alta |
-|RF-11| **Pesquisar/Consultar** -O site deve permitir que o paciente/administrador pesquise utilizando os filtros: Localidade, especialidade, clínicas, convênios e datas.                                                                                                                                                                     |Alta |
-|RF-12| **Confirmação de agendamento** - O site deve notificar o usuário confirmando o agendamento informando o motivo.                                                     |Média| 
-|RF-13|**Pós Consulta Paciente** -  O sistema deve permitir que o cliente faça um comentário a respeito da sua experiência e avalie o médico e a clínica por estrelas, sendo uma para péssimo e cinco para excelente.                                                                                                                             |Média|    
-|RF-15|**Lembrete Periódico** - O site deve notificar o cliente de 6 em 6 meses informando que quando foi a ultima consulta.                                               |Baixa|
-|RF-16|**Pré consulta Médico/Clínica** - O site deve notificar a agenda do médico/clínica quando efetuado um agendamento informando os dados do paciente.                   |Média|
-|RF-17|**Notificação de cancelamento Médico/Clínica** - O site deverá notificar ao médico/clínica quando ouver um cancelamento por parte do paciente informando o motivo.                                                                                                                                                                     |Média|
+|RF-03|**Tipos de Cadastro** - O site deve possuir 2 usuários diferentes, sendo: Administrador e Paciente.                                                                   |Alta |                                                                                                  
+|RF-06| **Cadastro Administrador** -O site deve permitir que o administrador da cadastre na clínica vinculando seus médicos e preenchendo os requisitos: Endereço, CNPJ, Razão Social, telefone de contato, Senha e e-mail.                                                                                                                                |Alta |                                                                              
+|RF-07| **Cadastro Paciente** -O site deve permitir que os pacientes se cadastrem, preenchendo os requisitos: Nome, Endereço, Data Nascimento, CPF, Telefone e convenio.       |Alta |
+|RF-08| **Agendamento de Consulta** - O site deve permitir que o paciente/administrador agende consultas.                                                                   |Alta |
+|RF-09|**Cancelamento de consulta** - O site deve permitir que o paciente/administrador cancele/reagende consultas. 
+|Média|
+|RF-10| **Consultar Histórico** - O site deve permitir a visualização ou relatório com histórico do paciente/médico/administrador.                                              |Alta |
+|RF-11| **Consultar Médicos** - O site deve permitir a visualização ou relatório com informações de horário de atendimento, data e avaliações de pacientes referente a consulta.                                                                                                                                                                   |Alta |
+|RF-12| **Pesquisar/Consultar** -O site deve permitir que o paciente/administrador pesquise utilizando os filtros: Localidade, especialidade, clínicas, convênios e datas.      |Alta |
+|RF-13| **Confirmação de agendamento** - O site deve notificar o paciente confirmando o agendamento.                                                                         |Média| 
+|RF-14|**Pós Consulta Paciente** -  O sistema deve permitir que o cliente faça um comentário a respeito da sua experiência e avalie o médico e a clínica por estrelas, sendo uma para péssimo e cinco para excelente.                                                                                                                                       |Média|    
+|RF-15|**Lembrete Periódico** - O site deve notificar o cliente de 6 em 6 meses informando quando foi a ultima consulta.                                                     |Baixa|
+|RF-16|**Pré consulta Médico/Clínica** - O site deve notificar ao administrador quando efetuado um agendamento informando os dados do paciente, m.                        |Média|
+|RF-17|**Notificação de cancelamento Médico/Clínica** - O site deverá notificar ao médico/clínica quando ouver um cancelamento por parte do paciente informando o motivo.        |Média|
 |RF-18|**Notificação de cancelamento Paciente** - O site deve notificar ao cliente quando ouver um cancelamento por parte do médico informando o motivo.                     |Média|
      
 
