@@ -28,21 +28,23 @@ Para  gestão  do  código  fonte  do  software  desenvolvido  pela  equipe,  o 
 
 Apresente a divisão de papéis entre os membros do grupo.
 
-##Scrum Master:
+#### Scrum Master:
 
-##Product Owner:
+#### Product Owner:
 
-##Developer:
+#### Developer:
  - Fabio Furlan
  - Gabriel Dantas
  - Hugo Kioshi Ito
  - Luiza Lobato
  - Michely Cunha
 
-##UX/UI Designer
+#### UX/UI Designer
  - Hugo Kioshi Ito
 
+Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  está  utilizando  a equipe está utilizando o Projects do github conforme a figura abaixo:
 
+![GitFlow](img/GitHubKanban.JPG)
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
