@@ -18,6 +18,8 @@ Gerenciamento do Projeto  | GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/
 ## Gestão de código fonte
 
 Para  gestão  do  código  fonte  do  software  desenvolvido  pela  equipe,  o  grupo  utiliza  um processo  baseado  no  Git  Flow  abordado  por  Vietro  (2015),  mostrado  na  Figura  a  seguir. Desta  forma,  todas  as  manutenções  no  código  são  realizadas  em  branches  separados, identificados  como  Hotfix,  Release,  Develop  e  Feature.  Uma  explicação  rápida  sobre  este processo é apresentada no vídeo "The gitflow workflow - in less than 5 mins".
+
+
 ![GitFlow](img/Gitflow.JPG)
 
 ## Gerenciamento de Projeto
