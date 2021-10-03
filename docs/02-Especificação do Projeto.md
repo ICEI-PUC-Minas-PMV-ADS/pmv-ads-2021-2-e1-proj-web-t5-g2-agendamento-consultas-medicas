@@ -64,8 +64,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-06| **Cadastro Administrador** -O site deve permitir que o administrador da cadastre na clínica vinculando seus médicos e preenchendo os requisitos: Endereço, CNPJ, Razão Social, telefone de contato, Senha e e-mail.                                                                                                                                |Alta |                                                                              
 |RF-07| **Cadastro Paciente** -O site deve permitir que os pacientes se cadastrem, preenchendo os requisitos: Nome, Endereço, Data Nascimento, CPF, Telefone e convenio.       |Alta |
 |RF-08| **Agendamento de Consulta** - O site deve permitir que o paciente/administrador agende consultas.                                                                   |Alta |
-|RF-09|**Cancelamento de consulta** - O site deve permitir que o paciente/administrador cancele/reagende consultas. 
-|Média|
+|RF-09|**Cancelamento de consulta** - O site deve permitir que o paciente/administrador cancele/reagende consultas.                                                          |Média|
 |RF-10| **Consultar Histórico** - O site deve permitir a visualização ou relatório com histórico do paciente/médico/administrador.                                              |Alta |
 |RF-11| **Consultar Médicos** - O site deve permitir a visualização ou relatório com informações de horário de atendimento, data e avaliações de pacientes referente a consulta.                                                                                                                                                                   |Alta |
 |RF-12| **Pesquisar/Consultar** -O site deve permitir que o paciente/administrador pesquise utilizando os filtros: Localidade, especialidade, clínicas, convênios e datas.      |Alta |
