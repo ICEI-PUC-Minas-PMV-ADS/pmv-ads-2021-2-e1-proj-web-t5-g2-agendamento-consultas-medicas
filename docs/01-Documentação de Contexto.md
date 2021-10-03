@@ -17,8 +17,8 @@ Os sistemas de agendamento online tendem a crescer, sendo assim as clínicas mé
 
 ## Objetivos
 
-O objetivo geral deste trabalho é a criação de um site que permita as clínicas de pequeno e médio porte e, aos médicos que cadastrem seus serviços e disponibilize para que clientes possam agendar as consultas totalmente online. 
-Os objetivos específicos, são:
+O objetivo geral deste trabalho é a criação de um site que permita as clínicas de pequeno e médio porte, e aos médicos que cadastrem seus serviços e disponibilize para que clientes possam agendar as consultas totalmente online. 
+Os objetivos específicos são:
  *Permitir que as clínicas e/ou médicos cadastrem as especialidades atendidas, com seus respectivos horários de atendimento;
  *Fornecer funcionalidades que o cliente (paciente) possa se cadastrar e agendar as consultas na clínica. Este agendamento, sendo feito de acordo com a sua necessiade, obtando pela especialidade, médico, dia e horário requerido. 
  *Permitir a personalização dos atendimentos com histórico de consulta, retornos, agendamentos/reagendamentos e a interação médico/paciente. 
