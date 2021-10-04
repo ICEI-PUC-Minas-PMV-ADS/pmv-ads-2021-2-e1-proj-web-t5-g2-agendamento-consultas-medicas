@@ -42,7 +42,7 @@ Apresente a divisão de papéis entre os membros do grupo.
 #### UX/UI Designer
  - Hugo Kioshi Ito
 
-Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  está  utilizando  a equipe está utilizando o Projects do github conforme a figura abaixo:
+Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  está  utilizando o Projects do github conforme a figura abaixo:
 
 ![GitFlow](img/GitHubKanban.JPG)
 
