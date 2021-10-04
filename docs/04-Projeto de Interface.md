@@ -57,29 +57,29 @@ A tela Histórico de Consultas Paciente, permite que o usuário consulte o hist�
 ### Tela - Portal de Consulta Administrador
 A tela Portal de Consulta Administrador, exibe um relatório com as seguintes informações: Pacientes cadastrados, Agendamentos hoje, Agendamentos Cancelados, Agendamentos Reagendados e um Gráfico com o percentual de consultas canceladas, reagendadas e confirmadas. 
 
-![Medico-Portal](img/M-Portal.JPG)
+![Medico-Portal](img/M-Portal-02.JPG)
 
 ### Tela - Cadastro Administrador
 A tela Cadastro Administrador, permite que o usuário administrador consulte seus dados e faça as alterações necessárias.
 
-![Medico-Cad01](img/M-MeuCadastro.JPG)
+![Medico-Cad01](img/M-MeuCadastro-02.JPG)
 
 ### Tela - Cadastro Medico - 
 A tela Cadastro Medico, permite que o administrador cadastre os médicos vinculados preenchendo os campos: Nome, Especialidade, Convênio, CRM e R$.
 
-![Medico-Cad02](img/M-MeuCadastro-Espec.JPG)
+![Medico-Cad02](img/M-MeuCadastro-Espec-02.JPG)
 
 ### Tela - Cadastro de Jornada
 A tela Cadastro de Jornada, permite que o usuário administrador cadastre a jornada de trabalho da clínica.
 
-![Medico-Cad03](img/M-MeuCadastro-Jornada.JPG)
+![Medico-Cad03](img/M-MeuCadastro-Jornada-02.JPG)
 
 ### Tela - Cadastro Administrador - Agenda
 A tela Cadastro Administrador - Agenda, permite que o usuário administrador verifique os agendamentos da clínica. Nestes agendamentos é possível obter as seguintes informações: Nome do Paciente, Hora, Data, Consulta (primeira ou retorno), Médico.
 
-![Medico-Agenda](img/M-AgendaMedica.JPG)
+![Medico-Agenda](img/M-AgendaMedica-02.JPG)
 
 ### Tela - Cadastro Administrador - Histórico Consulta
 A tela Cadastro Administrador - Histórico Consulta permite que o usuário administrador consulte o histórico de consultas da clínica, possuindo a ferramenta de pesquisa: Data.
 
-![Medico-Historico](img/M-Historico.JPG)
+![Medico-Historico](img/M-Historico-02.JPG)
