@@ -10,10 +10,10 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Fluxo do Usuário
 O diagrama apresentado na Figura 1 e na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o <https://marvelapp.com/prototype/5ee8e90> .
 
-![FluxoPaciente](img/Fluxo-Paciente.jpg)
+![FluxoPaciente](img/Fluxo-Paciente-02.jpg)
 Figura 1 - Fluxo de telas do paciente
 
-![FluxoMedico](img/Fluxo-Medico.jpg)
+![FluxoMedico](img/Fluxo-Medico-02.jpg)
 Figura 2 - Fluxo de telas do Administrador/Medico
 
 ## Wireframes
@@ -21,37 +21,37 @@ Figura 2 - Fluxo de telas do Administrador/Medico
 ### Tela - Home-Page
 A tela de Home-Page permite que o usuário faça login, utilizando usuário e senha, ou se cadastre no site, utilizando a opção cadastre-se.
 
-![Home-Page](img/Home.JPG)
+![Home-Page](img/Home-02.JPG)
 
 ### Tela - Cadastro de Usuário
 A tela Cadastro de Usuário permite que o usuário, seja paciente ou administrador, se cadastre no site preenchendo os dados solicitados e selecionando o tipo de cadastro paciente/administrador.
 
-![CadastroUsuario](img/Cadastro.JPG)
+![CadastroUsuario](img/Cadastro-02.JPG)
 
 ### Tela - Portal de Consulta Paciente
 A tela Portal de Consulta Paciente, permite que o usuário utilize as ferramentas de pesquisa: Clínicas, Localidade, Especialidade, Data e Convênio para escolher a melhor opção para realizar o agendamento de sua consulta.
 
-![Portal_Consulta-Paciente](img/P-Portal_Consulta.JPG)
+![Portal_Consulta-Paciente](img/P-Portal_Consulta-02.JPG)
 
 ### Tela - Agenda Horário
 A tela Agenda Horário, permite que o usuário utilize a ferramenta de pesquisa por data e selecione o horário desejado para o agendamento de sua consulta.
 
-![P-Agenda_Horario](img/P-Agenda_Horario.JPG)
+![P-Agenda_Horario](img/P-Agenda_Horario-02.JPG)
 
 ### Tela - Agenda Paciente
 A tela Agenda Paciente, permite que o usuário consulte suas consultas agendadas.
 
-![P-Portal_Agenda_Paciente](img/P-Portal_Agenda_Paciente.JPG)
+![P-Portal_Agenda_Paciente](img/P-Portal_Agenda_Paciente-02.JPG)
 
 ### Tela - Meu Cadastro
 A tela Meu Cadastro, permite que o usuário paciente consulte seus dados e faça as alterações necessárias.
 
-![P-MeuCadastro](img/P-MeuCadastro.JPG)
+![P-MeuCadastro](img/P-MeuCadastro-02.JPG)
 
 ### Tela - Histórico de Consultas Paciente
 A tela Histórico de Consultas Paciente, permite que o usuário consulte o histórico de suas consultas, possuindo as ferramentas de pesquisa: Especialidade e Ano.
 
-![P-Histórico](img/P-Histórico.JPG)
+![P-Histórico](img/P-Histórico-02.JPG)
 
 
 ### Tela - Portal de Consulta Administrador
