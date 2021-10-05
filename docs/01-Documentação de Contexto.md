@@ -35,7 +35,7 @@ Ao observar a lacuna existente na inserção das pequenas e médias clínicas no
 ![grafico](img/grafico.png) 
 
 Observa-se o número de médico a cada 100 mil habitantes por unidade de federação, o que justifica a necessidade de uma plataforma que atenda a demanda de mercado. A automatização dos processos por softwares clínicos pode ser entendida como a otimização de atividades, antes realizadas de forma manual e com grande número de erros. 
-O agendamento online de consultas é reverte consideravelmente o número de cancelamentos, pois a plataforma possibilita selecionar a data conforme a disponibilidade do paciente. Portanto, as chances de não comparecimento reduzirão, assim como os formulários em papel, tornando a empresa sustentável.
+O agendamento online de consultas irá reverter consideravelmente o número de cancelamentos, pois a plataforma possibilita selecionar a data conforme a disponibilidade do paciente. Portanto, as chances de não comparecimento reduzirão, assim como os formulários em papel, tornando a empresa sustentável.
 
 
 
