@@ -10,14 +10,16 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Fluxo do Usuário
 O diagrama apresentado na Figura 1 e na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o <https://marvelapp.com/prototype/5ee8e90> .
 
-
 ![FluxoPaciente](img/F-Paciente.jpg)
-Figura 1 - Fluxo de telas do paciente
+
+                                  Figura 1 - Fluxo de telas do paciente
+
+
 
 
 ![FluxoMedico](img/F-Medico.jpg)
 
-Figura 2 - Fluxo de telas do Administrador/Medico
+                                 Figura 2 - Fluxo de telas do Administrador/Medico
 
 ## Wireframes
 
