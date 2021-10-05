@@ -13,7 +13,7 @@ O diagrama apresentado na Figura 1 e na Figura 2 mostra o fluxo de interação d
 ![FluxoPaciente](img/F-Paciente.jpg)
 Figura 1 - Fluxo de telas do paciente
 
-![FluxoMedico](img/Fluxo-Medico-02.jpg)
+![FluxoMedico](img/F-Medico.jpg)
 Figura 2 - Fluxo de telas do Administrador/Medico
 
 ## Wireframes
