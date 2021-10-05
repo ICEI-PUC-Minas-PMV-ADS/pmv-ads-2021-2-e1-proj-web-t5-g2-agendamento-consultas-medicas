@@ -30,7 +30,12 @@ Os objetivos específicos são:
 
 ## Justificativa
 
-Ao observar a lacuna existente na inserção das pequenas e médias clínicas no agendamento online, notou-se a viabilidade de elaborar um site onde estes possam se cadastrar. No que lhe diz respeito, deve ter utilidade para os médicos e administradores de pequenas e médias clínicas e para todo o público em que estas se destinam. O projeto também busca otimizar o tempo no que se refere ao agendamento e, detalhar o histórico de consultas por ambas as partes.
+Ao observar a lacuna existente na inserção das pequenas e médias clínicas no agendamento online, notou-se a viabilidade de elaborar um site onde estes possam se cadastrar. No que lhe diz respeito, deve ter utilidade para os médicos e administradores de pequenas e médias clínicas e para todo o público em que estas se destinam. O projeto também busca otimizar o tempo no que se refere ao agendamento e, detalhar o histórico de consultas por ambas as partes. Segundo o site do IBGE, no artigo de Alerrandre Barros publicado em maio de 2020, o número de médicos no Brasil cresce exponencialmente, conforme a tabela a seguir.
+
+![grafico](img/grafico.png) 
+
+Observa-se o número de médico a cada 100 mil habitantes por unidade de federação, o que justifica a necessidade de uma plataforma que atenda a demanda de mercado. A automatização dos processos por softwares clínicos pode ser entendida como a otimização de atividades, antes realizadas de forma manual e com grande número de erros. 
+O agendamento online de consultas é reverte consideravelmente o número de cancelamentos, pois a plataforma possibilita selecionar a data conforme a disponibilidade do paciente. Portanto, as chances de não comparecimento reduzirão, assim como os formulários em papel, tornando a empresa sustentável.
 
 
 
