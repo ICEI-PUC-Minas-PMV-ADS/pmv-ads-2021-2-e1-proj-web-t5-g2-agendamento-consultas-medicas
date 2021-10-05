@@ -42,7 +42,7 @@ A tela Agenda Horário, permite que o usuário utilize a ferramenta de pesquisa 
 ![P-Agenda_Horario](img/P-Agenda_Horario-02.JPG)
 
 ### Tela - Agenda Paciente
-A tela Agenda Paciente, permite que o usuário consulte suas consultas agendadas.
+A tela Agenda Paciente, permite que o usuário vefifique suas consultas agendadas, cancele ou reagende.
 
 ![P-Portal_Agenda_Paciente](img/P-Portal_Agenda_Paciente-02.JPG)
 
