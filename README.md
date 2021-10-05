@@ -14,7 +14,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Gabriel Dantas
 * Hugo Kioshi Ito
 * Luiza Lobato
-* Michely Cunha
 
 
 ## Orientador
