@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styleCriação.css" />
+  </head>
+
+  <body onload="init()">
+    <Div class="img"><img src="logo.png" alt="logo" /></Div>
+    </br></br>
+    <div class="container">
+      <form class="form">
+        <div class="ss">Cadastre-se</div>
+        
+          <div>
+            <label for="inputNome"></label>
+          </br>
+            <input
+            class="imput"
+              type="text"
+              id="inputNome"
+              required
+              placeholder="Nome Completo"
+            />
+          </div>
+
+          <div>
+            <label for="inputDoc">  </label>
+            </br>
+            <input
+            class="imput"
+              type="text"
+              id="inputDoc"
+              required
+              placeholder="CPF / CNPJ"
+            />
+          </div>
+
+          <div>
+            <label for="inputTelefone"> </label>
+          </br>
+            <input
+            class="imput"
+              type="text"
+              id="inputTelefone"
+              required
+              placeholder="Telefone"
+            />
+          </div>
+
+          <div>
+            <label for="inputEmail"> </label>
+          </br>
+            <input
+            class="imput"
+              type="email"
+              id="inputEmail"
+              required
+              placeholder="Informe o E-mail"
+            />
+          </div>
+
+          <div>
+            <label for="inputEmailConf">  </label>
+          </br>
+            <input
+            class="imput"
+              type="email"
+              id="inputEmailConf"
+              required
+              placeholder="Confirme o E-mail"
+            />
+          </div>
+
+        <div>
+            <label for="inputSenha">  </label>
+          </br>
+            <input
+          class="imput" 
+            type="text" 
+            id="inputSenha" 
+            placeholder="Defina uma Senha" />
+        </div>
+
+          <div>
+            <label for="inputSenhaConf"> </label>
+          </br>
+            <input
+            class="imput"
+              type="text"
+              id="inputSenhaConf"
+              required
+              placeholder="Confirme a Senha"
+            />
+          </div>
+          <div class="lateral">
+
+          <div class="sp"> 
+            <input
+            name="tipo"
+            type="radio"
+            id="Adm"
+            required
+            placeholder="Adm"
+          />
+           Administrador  
+          </div>
+
+          <div class="sp" > 
+            <input 
+            name="tipo"
+            type="radio"
+            id="usario"
+            required
+            placeholder="usario"
+          />
+           Usario
+              </div>
+            </div>
+            <div class="lateral2">
+              <div class="box">
+                <p>Voltar</p>
+              </div>
+              <div class="box">
+                <p>Salvar</p>
+              </div>
+              
+            </div>
+      </form>
+    </div>
+  </body>
+</html>
