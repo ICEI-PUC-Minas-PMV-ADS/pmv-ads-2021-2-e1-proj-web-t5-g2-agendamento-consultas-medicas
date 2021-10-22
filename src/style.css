@@ -1,85 +1,91 @@
-* {
-  box-sizing: content-box;
-}
-html {
-  background-color: rgba(51, 56, 56, 0.897);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+.bodycorpadrao{
+    margin: 0px;
+    background-color: #BAC5DF;
+    font-family: ''Arial',Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav {
-  background-color: #ffffff;
-  width: 300px;
-  height: 1024px;
-  flex-direction: column;
+.card{
+  height: 370px;
+  margin: 20px 10px;
+  width: 400px;
+  padding: 15px;
+  background-color: rgba(60, 68, 112, 0.1) !important;
+  }
+.container{
+    height: 100%;
+    align-content: center;
+    }
+
+.imglogo{
+    margin-top: 50px;
+    width: 310px;
+    height: 140px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-ul,
-ol {
-  padding: 0px;
-  border: 0px;
-  margin: 0px;
+.h1titulo{
+    margin-top: 50px;
+    color : #47525E;
 }
 
-p {
-  margin: 0px;
+.text-info-cor{
+    color : #47525E;
 }
 
-.fig {
-  background-color: #a5e3f9;
-  width: 103px;
-  height: 88px;
-  margin-left: 98px;
-  margin-right: 99px;
+.btn-info-cor{
+    color : #ffffff;
+    background-color:#47525E;
 }
 
-.boxMenu {
-  text-align: center;
-  background-color: #8190a5;
-  color: #ffffff;
-  border-radius: 5px;
-  width: 120px;
-  height: 30px;
-  margin-left: 89px;
-  margin-right: 91px;
-}
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }
+  
 
-.boxText {
-  font-size: 15px;
-  padding: 5px;
-}
+  /* ANIMATIONS */
 
-.espaco {
-  background-color: #d3dce6;
-  width: 298px;
-  height: 1px;
-}
-
-.Topic {
-  background-color: #ffffff;
-  width: 300px;
-  height: 80px;
-}
-
-.Topic1 {
-  background-color: #f9fafc;
-  width: 300px;
-  height: 52px;
-}
-
-.text1 {
-  color: #47525e;
-  font-size: 16px;
-  text-align: left;
-  padding-top: 16px;
-  padding-bottom: 17px;
-  padding-left: 31px;
-}
-.text {
-  color: #47525e;
-  font-size: 18px;
-  text-align: left;
-  padding-top: 29px;
-  padding-bottom: 29px;
-  padding-left: 19px;
-}
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
