@@ -1,0 +1,8 @@
+usuario padrao:
+usuario:admin
+senha:123
+tipo:paciente
+
+usuario:user
+senha:123
+tipo:medico
