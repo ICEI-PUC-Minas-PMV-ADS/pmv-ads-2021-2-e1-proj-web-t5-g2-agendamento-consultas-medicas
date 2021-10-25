@@ -1,0 +1,7 @@
+Acesso:
+
+Gitpages
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/src/index.html
+
+Replit
+https://replit.com/@hugokioshi/VirtualMed?v=1
