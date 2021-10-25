@@ -13,7 +13,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Fabio Furlan
 * Gabriel Dantas
 * Hugo Kioshi Ito
-* Luiza Lobato
 
 
 ## Orientador
