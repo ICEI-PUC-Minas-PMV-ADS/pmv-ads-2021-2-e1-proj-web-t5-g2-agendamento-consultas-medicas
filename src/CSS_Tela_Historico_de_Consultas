@@ -1,0 +1,102 @@
+* {
+  box-sizing: content-box;
+}
+html {
+  background-color:#BAC5DF !important;
+  font-family: "Lato", Helvetica, sans-serif !important;
+  font-size: 18px;
+}
+
+.titulo {
+    color: #47525E;
+    font-family: Lato;
+    font-size: 38px;
+    line-height: 62px;
+    width: 876px;
+    text-align: center;
+}
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  width: auto;
+  height: 1024;
+  flex-direction: column;
+  font-family: "Lato";
+  font-size: 18px;
+}
+
+ul,
+ol {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.fig {
+  background-color: #a5e3f9;
+  width: 103px;
+  height: 88px;
+  justify-self: center;
+  align-self: center;
+}
+
+.boxMenu {
+  text-align: center;
+  background-color: #8190a5;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  justify-self: center;
+  align-self: center;
+}
+
+.boxText {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.espaco {
+  background-color: #d3dce6;
+  width: auto;
+  height: 1px;
+}
+
+.Topic {
+  background-color: #ffffff;
+  width: auto;
+  height: 80px;
+}
+
+.Topic1 {
+  background-color: #f9fafc;
+  width: auto;
+  height: 52px;
+}
+
+.text1 {
+  color: #47525e;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 17px;
+  padding-left: 31px;
+}
+.text {
+  color: #47525e;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding-left: 19px;
+}
+
+.logo {
+  justify-self: center;
+  align-self: center;
+}
