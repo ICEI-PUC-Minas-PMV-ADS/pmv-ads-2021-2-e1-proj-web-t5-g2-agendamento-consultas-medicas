@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Contatos</title>
+    <link rel="stylesheet" href="style-PanelPaciente.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body onload="ListaContatos()">
+    <header>
+        
+        <nav class="menu-principal">
+            <ul class="nav flex-column">
+                <li><a href='#profile'>Painel</a></li>
+    
+                <li class='sub-menu'><a href='#cadastro'>Cadastro<div class='fa fa-caret-down right'></div></a>
+                    <ul>
+                        <li><a href='#cadastro'>Meus Dados</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#agendamentos'>Agendamentos<div class='fa fa-caret-down right'></div></a>
+                    <ul>
+                        <li><a href='#agendamentos'>Consultar Agenda</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#consultas'>Histórico de Consultas<div class='fa fa-caret-down right'></div></a>
+                    <ul>
+                        <li><a href='#consultas'>Consultas Finalizadas</a></li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <a class="btn btn-secondary btn-sm" href="./index.html" role="button">Desconectar</a>
+    
+        </nav>
+    </header>
+    
+    <main class="conteudo">
+
+        <div class="container">
+            <div class="row">
+                <div id="msg" class="col-sm-10 offset-sm-1 ">
+                    <img class="imglogo" src="./logo.png" alt="logo">
+                    <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+                </div>
+            </div>
+
+            <!--   <div class="row">
+            <div id="msg" class="col-sm-2 offset-sm-10 ">
+                <a href="index.html"><input type="button" class="btn btn-warning" id="btnClear" value="Cadastro"></a>
+            </div>
+        </div>        
+        -->
+            <h3>Listagem de Contatos</h3>
+            <form id="form-contato">
+                <div class="form-group row">
+                    <div class="col-sm-4">
+                        <select name="filtro_cidade" id="filtro_cidade" onchange="ListaContatos()" class="form-control">
+                            <option value="">Selecione a cidade</option>
+                            <option value="Belo Horizonte">Belo Horizonte</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="São Paulo">São Paulo</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-8">
+                        <select name="filtro_especialidade" id="filtro_especialidade" onchange="ListaContatos()"
+                            class="form-control">
+                            <option value="">Selecione a Especialidade</option>
+                            <option value="Dermatologista">Dermatologista</option>
+                            <option value="Ortopedista">Ortopedista</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <table id="grid-contatos" class="table table-striped">
+                        <!--<thead>
+                        <tr>
+                            <th scope="col">#</th><br>
+                            <th scope="col">Nome</th><br>
+                            <th scope="col">Especialidade</th><br>
+                            <th scope="col">Preço</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Cidade</th>
+                        </tr>
+                    </thead>-->
+                        <tbody id="table-contatos">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+        Copyright 2019 (c) Acem
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <!-- Funcao do menu-->
+    <script>
+        $('.sub-menu ul').hide();
+        $(".sub-menu a").click(function () {
+            $(this).parent(".sub-menu").children("ul").slideToggle("100");
+            $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+        });
+    </script>
+    <!-- Funcao do menu-->
+
+
+
+
+    <script src="db-Medico.js"></script>
+    <script>
+        // função para listar na tabela os contatos que estão associados aos filtros 
+        function ListaContatos() {
+
+            // Obtem os dados informados pelo usuário nos filtros
+            let fc = document.getElementById('filtro_cidade').value;
+            let fcg = document.getElementById('filtro_especialidade').value;
+
+            // limpa a lista de contatos apresentados
+            $("#table-contatos").empty();
+
+            // Popula a tabela com os registros do banco de dados
+            for (let index = 0; index < db.data.length; index++) {
+                const contato = db.data[index];
+
+                // Verifica se os dados do contato batem com os filtros
+                if (((contato.cidade == fc) || (fc == '')) &&
+                    ((contato.especialidade == fcg) || (fcg == ''))) {
+
+                    // Inclui o contato na tabela    
+                    $("#table-contatos").append(`<p class="produto-item"> 
+                        
+                                              <img src="${contato.imagem}"><br>
+                                                        ${contato.nome}<br>
+                                                        ${contato.especialidade}<br>
+                                                        ${contato.preco}<br>
+                                                        ${contato.telefone}<br>
+                                                        ${contato.email}<br>
+                                                        ${contato.cidade}<br>
+                                                        <a class="btn btn-secondary btn-sm" href="./agendarhorario.html" role="button">Agendar Horário</a>
+                                                    </p>`);
+
+
+
+
+
+
+                }
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
