@@ -8,7 +8,7 @@ var db_contatos_inicial = {
             "crm": "Dr. Luiz Antonio Coelho",
             "cnpj/cpf": "00.000.001/0001-25",
             "cidade": "Belo Horizonte",
-            "convenio": "unimed",
+            "convenio": "Unimed",
             "especialidade": "Ortopedista",
             "preco": "R$290",
             "jornada": "segunda a sexta",
@@ -23,7 +23,7 @@ var db_contatos_inicial = {
             "nome": "Dra. Marcos Cesar",
             "cnpj/cpf": "00.000.001/0001-25",
             "cidade": "São Paulo",
-            "convenio": "unimed",
+            "convenio": "Unimed",
             "especialidade": "Dermatologista",  
             "preco": "R$350",
             "jornada": "segunda a sexta",
@@ -38,7 +38,7 @@ var db_contatos_inicial = {
             "nome": "Dra. Marina Bucker",
             "cnpj/cpf": "00.000.001/0001-25",
             "cidade": "São Paulo",
-            "convenio": "unimed",
+            "convenio": "Amil",
             "especialidade": "Ortopedista",  
             "preco": "R$350",
             "jornada": "segunda a sexta",
@@ -53,7 +53,7 @@ var db_contatos_inicial = {
             "nome": "Dra. Bucker Marina",
             "cnpj/cpf": "00.000.001/0001-25",
             "cidade": "Rio de Janeiro",
-            "convenio": "unimed",
+            "convenio": "Porto Seguro",
             "especialidade": "Dermatologista",  
             "preco": "R$350",
             "jornada": "segunda a sexta",
@@ -68,7 +68,7 @@ var db_contatos_inicial = {
             "nome": "Dra. Bucker Marina",
             "cnpj/cpf": "00.000.001/0001-25",
             "cidade": "Rio de Janeiro",
-            "convenio": "unimed",
+            "convenio": "SulAmérica",
             "especialidade": "Dermatologista",  
             "preco": "R$350",
             "jornada": "segunda a sexta",
@@ -83,7 +83,7 @@ var db_contatos_inicial = {
             "nome": "Dra. Bucker Marina",
             "cnpj/cpf": "00.000.001/0001-25",
             "cidade": "Rio de Janeiro",
-            "convenio": "unimed",
+            "convenio": "SulAmérica",
             "especialidade": "Dermatologista",  
             "preco": "R$350",
             "jornada": "segunda a sexta",
@@ -98,7 +98,7 @@ var db_contatos_inicial = {
             "nome": "Dra. Bucker Marina",
             "cnpj/cpf": "00.000.001/0001-25",
             "cidade": "Rio de Janeiro",
-            "convenio": "unimed",
+            "convenio": "Unimed",
             "especialidade": "Dermatologista",  
             "preco": "R$350",
             "jornada": "segunda a sexta",
@@ -113,7 +113,7 @@ var db_contatos_inicial = {
             "nome": "Dra. Bucker Marina",
             "cnpj/cpf": "00.000.001/0001-25",
             "cidade": "Rio de Janeiro",
-            "convenio": "unimed",
+            "convenio": "Unimed",
             "especialidade": "Dermatologista",  
             "preco": "R$350",
             "jornada": "segunda a sexta",
@@ -128,7 +128,7 @@ var db_contatos_inicial = {
             "nome": "Dra. Bucker Marina",
             "cnpj/cpf": "00.000.001/0001-25",
             "cidade": "Rio de Janeiro",
-            "convenio": "unimed",
+            "convenio": "Amil",
             "especialidade": "Dermatologista",  
             "preco": "R$350",
             "jornada": "segunda a sexta",
@@ -136,21 +136,6 @@ var db_contatos_inicial = {
             "email": "drabucker@gmail.com",
             "telefone": "3245-7812",
             "telefone2": "3245-7845"
-        },
-        {
-            "id": 10,
-            "imagem":'http://lorempixel.com/100/70/people/10',
-            "nome": "Dr. Sergio",
-            "cnpj/cpf": "00.000.001/0001-25",
-            "cidade": "Rio de Janeiro",
-            "convenio": "unimed",
-            "especialidade": "Ortopedista",
-            "preco": "R$250",
-            "jornada": "segunda a sexta",
-            "horario": "08:00 a 11:00 13:00 a 16:00",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874"
         }
     ],
 
@@ -167,7 +152,7 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",          
-            "mes": "Janeiro",          
+            "mes": "Janeiro"         
         },
         {
             "id": 2,
@@ -179,7 +164,7 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Janeiro",
+            "mes": "Janeiro"
         },
         {
             "id": 3,
@@ -191,7 +176,7 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Março",
+            "mes": "Março"
         },
         {
             "id": 4,
@@ -203,7 +188,7 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Junho",
+            "mes": "Junho"
         },
         {
             "id": 5,
@@ -215,7 +200,7 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Abril",
+            "mes": "Abril"
         },
         {
             "id": 6,
@@ -227,7 +212,7 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Dezembro",
+            "mes": "Dezembro"
         }
        
     ],
