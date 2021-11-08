@@ -140,7 +140,7 @@
                 const agendamedico = db.paciente[index];
 
                 // Verifica se os dados do contato batem com os filtros
-                if (((agendamedico.mes == fc) || (fc == '')) || (fcg == '')) {
+               if ((agendamedico.mes == fc) || (fc == '')) {
 
                     // Inclui o contato na tabela    
                     $("#table-contatos").append(`<p class="produto-item"> 
