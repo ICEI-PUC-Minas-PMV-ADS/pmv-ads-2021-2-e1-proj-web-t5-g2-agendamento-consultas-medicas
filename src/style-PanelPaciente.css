@@ -21,7 +21,7 @@ h3{
     flex-flow: row;
     flex-wrap: wrap;
     float: left;
-    background-color: #ced2e7;
+    background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px; 
 }
@@ -32,7 +32,7 @@ h3{
 }
 .conteudo{
     min-width: 50px;
-    width: 90%;
+    width: 85%;
     float:right;
     background-color: #BAC5DF;
 }
@@ -46,14 +46,11 @@ h3{
 /* Menu Vertical */
 .perfil {
 	text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
-
 .menu-principal{
-
     width: 180px;
     height: 100%;
-    background-color: #a0acc9;
     position: fixed;
     display: inline;
 }
@@ -72,21 +69,16 @@ nav ul li {
 nav ul li a {
 	display: block;
 	padding: 10px 15px;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
     font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav ul li a:hover {
 	background: #1d4f71;
 	color: #fff;
 }
-nav ul li a .fa {
-	width: 16px;
-	text-align: center;
-	margin-right: 5px;
-	float:right;
-    font-size: 4px;
-}
+
 nav ul ul {
 	background: rgba(0, 0, 0, 0.2);
 }
@@ -99,6 +91,11 @@ nav ul li ul li a:hover {
 
 	border-left: 4px solid #3498db;
 }
+.btndesc{
+    margin-top: 80px;
+    margin-right: 45px;
+}
+
 /* Fim Menu Vertical */
 
 
