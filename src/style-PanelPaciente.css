@@ -3,8 +3,12 @@
     background-color: #BAC5DF;
     font-family: ''Arial',Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height:850px ;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
 
 }
+
 
 .imglogo{
     margin-left: 50%;
