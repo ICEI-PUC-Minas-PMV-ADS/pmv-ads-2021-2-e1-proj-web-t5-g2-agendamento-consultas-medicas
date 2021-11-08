@@ -69,6 +69,16 @@
                                         <option value="Ortopedista">Ortopedista</option>
                                     </select>
                                 </div>
+                                <div class="col-sm-3">
+                                    <select name="filtro_convenio" id="filtro_convenio"
+                                        onchange="ListaContatos()" class="form-select-sm form-control">
+                                        <option value="">Selecione o Convênio</option>
+                                        <option value="Unimed">Unimed</option>
+                                        <option value="Amil">Amil</option>
+                                        <option value="SulAmérica">SulAmérica</option>
+                                        <option value="Porto Seguro">Porto Seguro</option>
+                                    </select>
+                                </div>
                             </div>
                         </form>
                     </section>
@@ -77,17 +87,6 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <table id="grid-contatos" class="table table-striped">
-                                <!--<thead>
-                        <tr>
-                            <th scope="col">#</th><br>
-                            <th scope="col">Nome</th><br>
-                            <th scope="col">Especialidade</th><br>
-                            <th scope="col">Preço</th>
-                            <th scope="col">Telefone</th>
-                            <th scope="col">E-mail</th>
-                            <th scope="col">Cidade</th>
-                        </tr>
-                    </thead>-->
                                 <tbody id="table-contatos">
                                 </tbody>
                             </table>
@@ -131,6 +130,7 @@
             // Obtem os dados informados pelo usuário nos filtros
             let fc = document.getElementById('filtro_cidade').value;
             let fcg = document.getElementById('filtro_especialidade').value;
+            let fcgc = document.getElementById('filtro_convenio').value;
 
             // limpa a lista de contatos apresentados
             $("#table-contatos").empty();
@@ -141,7 +141,8 @@
 
                 // Verifica se os dados do contato batem com os filtros
                 if (((contato.cidade == fc) || (fc == '')) &&
-                    ((contato.especialidade == fcg) || (fcg == ''))) {
+                    ((contato.especialidade == fcg) || (fcg == ''))&&
+                    ((contato.convenio == fcgc) || (fcgc == ''))) {
 
                     // Inclui o contato na tabela    
                     $("#table-contatos").append(`<p class="produto-item"> 
@@ -153,6 +154,7 @@
                                                         ${contato.telefone}<br>
                                                         ${contato.email}<br>
                                                         ${contato.cidade}<br>
+                                                        ${contato.convenio}<br>
                                                         <a class="btn btn-secondary btn-sm" href="./agendarhorario.html" role="button">Agendar Horário</a>
                                                     </p>`);
 
