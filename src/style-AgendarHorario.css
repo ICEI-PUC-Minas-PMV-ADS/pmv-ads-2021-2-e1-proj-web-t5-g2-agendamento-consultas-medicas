@@ -1,40 +1,49 @@
-.conteudo{
-    margin: 0px;
-    background-color: #BAC5DF;
-    font-family: ''Arial',Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height:850px ;
-
-}
-
+/* Inicio Conteudo */
 .imglogo{
-    margin-left: 50%;
-    margin-right: 50%;
-    width: 230px;
     height: 120px;
     padding: 10px;
 
+}
 
-}
-nav{
-    background-color: #a0acc9;
-    height: 850px;
-    width: 155px;
-    display: block;
-}
+
 h3{
-    padding: 10px;
+    padding-top: 90px;
     text-align: left;
 }
-.menu-principal{
-    float: left;
-    
+
+.produto-item{ 
+    padding-top: 30px;   
+
 }
+
+
+.conteudo{
+    min-width: 50px;
+    width: 90%;
+    float:right;
+    background-color: #BAC5DF;
+}
+
+
+
+/* Fim conteudo */
+
+
+/* Menu Vertical */
+
+.menu-principal{
+
+    width: 180px;
+    height: 100%;
+    background-color: #a0acc9;
+    position: fixed;
+    display: inline;
+}
+
 .menu-principal > ul > li{
     display: inline-block;
     padding: 8px;
 }
-
-/* Menu Vertical */
 
 nav ul {
 	list-style: none;
@@ -77,11 +86,8 @@ nav ul li ul li a:hover {
 /* Fim Menu Vertical */
 
 
-.lista-horarios{
-    width: 250px;
-    text-align: center;
-    padding: 2px 10px;
-}
+
+
 
 footer{
     padding: 10px;

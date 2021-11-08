@@ -16,7 +16,7 @@
 
         <nav class="menu-principal">
             <ul class="nav flex-column">
-                <li><a href="./panel-paciente.html">Painel</a></li>
+                <li><a href="./panel-medico.html">Painel</a></li>
 
                 <li class='sub-menu'><a href='#cadastro'>Cadastro<div class='fa fa-caret-down right'></div></a>
                     <ul>
@@ -25,13 +25,13 @@
                 </li>
                 <li class='sub-menu'><a href='#agendamentos'>Agendamentos<div class='fa fa-caret-down right'></div></a>
                     <ul>
-                        <li><a href='#agendamentos'>Consultar Agenda</a></li>
+                        <li><a href='./agenda-medico.html'>Consultar Agenda</a></li>
                     </ul>
                 </li>
                 <li class='sub-menu'><a href='#consultas'>Histórico de Consultas<div class='fa fa-caret-down right'>
                         </div></a>
                     <ul>
-                        <li><a href='#consultas'>Consultas Finalizadas</a></li>
+                        <li><a href='./historicoconsulta-medico.html'>Consultas Finalizadas</a></li>
                     </ul>
                 </li>
             </ul>
@@ -49,24 +49,25 @@
                     <img class="rounded mx-auto d-block imglogo" src="./logo.png" alt="logo">
 
                     <section>
-                        <h3>Listagem de Contatos</h3>
+                        <h3>Historico de Consultas Finalizadas</h3>
                         <form id="form-contato">
                             <div class=" form-group row">
                                 <div class="col-sm-3">
-                                    <select name="filtro_cidade" id="filtro_cidade" onchange="ListaContatos()"
+                                    <select name="filtro_mes" id="filtro_mes" onchange="ListaContatos()"
                                         class="form-select-sm form-control">
-                                        <option value="">Selecione a cidade</option>
-                                        <option value="Belo Horizonte">Belo Horizonte</option>
-                                        <option value="Rio de Janeiro">Rio de Janeiro</option>
-                                        <option value="São Paulo">São Paulo</option>
-                                    </select>
-                                </div>
-                                <div class="col-sm-3">
-                                    <select name="filtro_especialidade" id="filtro_especialidade"
-                                        onchange="ListaContatos()" class="form-select-sm form-control">
-                                        <option value="">Selecione a Especialidade</option>
-                                        <option value="Dermatologista">Dermatologista</option>
-                                        <option value="Ortopedista">Ortopedista</option>
+                                        <option value="">Selecione o Mês</option>
+                                        <option value="Janeiro">Janeiro</option>
+                                        <option value="Fevereiro">Fevereiro</option>
+                                        <option value="Março">Março</option>
+                                        <option value="Abril">Abril</option>
+                                        <option value="Maio">Maio</option>
+                                        <option value="Junho">Junho</option>
+                                        <option value="Julho">Julho</option>
+                                        <option value="Agosto">Agosto</option>
+                                        <option value="Setembro">Setembro</option>
+                                        <option value="Outubro">Outubro</option>
+                                        <option value="Novembro">Novembro</option>
+                                        <option value="Dezembro">Dezembro</option>
                                     </select>
                                 </div>
                             </div>
@@ -129,30 +130,26 @@
         function ListaContatos() {
 
             // Obtem os dados informados pelo usuário nos filtros
-            let fc = document.getElementById('filtro_cidade').value;
-            let fcg = document.getElementById('filtro_especialidade').value;
+            let fc = document.getElementById('filtro_mes').value;
 
             // limpa a lista de contatos apresentados
             $("#table-contatos").empty();
 
             // Popula a tabela com os registros do banco de dados
-            for (let index = 0; index < db.medico.length; index++) {
-                const contato = db.medico[index];
+            for (let index = 0; index < db.paciente.length; index++) {
+                const agendamedico = db.paciente[index];
 
                 // Verifica se os dados do contato batem com os filtros
-                if (((contato.cidade == fc) || (fc == '')) &&
-                    ((contato.especialidade == fcg) || (fcg == ''))) {
+                if (((agendamedico.mes == fc) || (fc == '')) || (fcg == '')) {
 
                     // Inclui o contato na tabela    
                     $("#table-contatos").append(`<p class="produto-item"> 
                         
-                                              <img src="${contato.imagem}"><br>
-                                                        ${contato.nome}<br>
-                                                        ${contato.especialidade}<br>
-                                                        ${contato.preco}<br>
-                                                        ${contato.telefone}<br>
-                                                        ${contato.email}<br>
-                                                        ${contato.cidade}<br>
+                                              <img src="${agendamedico.imagem}"><br>
+                                                        Paciente: ${agendamedico.nome}<br>
+                                                        Consulta: ${agendamedico.mes}<br>
+                                                        Consulta: ${agendamedico.telefone}<br>
+                                                
                                                         <a class="btn btn-secondary btn-sm" href="./agendarhorario.html" role="button">Agendar Horário</a>
                                                     </p>`);
 
