@@ -13,13 +13,11 @@
 
 <body onload="ListaContatos()">
     <header>
-
         <nav class="menu-principal">
             <p class="perfil"><a><img src="./img/login-medico.jpg"></a></p>
             <h5 class="perfil">Medico</h5>
             <ul class="nav flex-column">
                 <li><a href="./panel-medico.html">Painel</a></li>
-
                 <li class='sub-menu'><a href='#cadastro'>Cadastro<div class='fa fa-caret-down right'></div></a>
                     <ul>
                         <li><a href='#cadastro'>Meus Dados</a></li>
@@ -37,75 +35,57 @@
                     </ul>
                 </li>
             </ul>
-
             <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Desconectar</a>
-
         </nav>
     </header>
 
     <main class="conteudo">
-
         <div class="container">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <img class="rounded mx-auto d-block imglogo" src="./logo.png" alt="logo">
+            </div>
             <div class="row">
-                <div id="msg" class="col-sm-10 offset-sm-1 ">
-                    <img class="rounded mx-auto d-block imglogo" src="./logo.png" alt="logo">
-
-                    <section>
-                        <h3>Historico de Consultas Finalizadas</h3>
-                        <form id="form-contato">
-                            <div class=" form-group row">
-                                <div class="col-sm-3">
-                                    <select name="filtro_mes" id="filtro_mes" onchange="ListaContatos()"
-                                        class="form-select-sm form-control">
-                                        <option value="">Selecione o Mês</option>
-                                        <option value="Janeiro">Janeiro</option>
-                                        <option value="Fevereiro">Fevereiro</option>
-                                        <option value="Março">Março</option>
-                                        <option value="Abril">Abril</option>
-                                        <option value="Maio">Maio</option>
-                                        <option value="Junho">Junho</option>
-                                        <option value="Julho">Julho</option>
-                                        <option value="Agosto">Agosto</option>
-                                        <option value="Setembro">Setembro</option>
-                                        <option value="Outubro">Outubro</option>
-                                        <option value="Novembro">Novembro</option>
-                                        <option value="Dezembro">Dezembro</option>
-                                    </select>
-                                </div>
+                <section>
+                    <h3>Historico de Consultas Finalizadas</h3>
+                    <form id="form-contato">
+                        <div class=" form-group row">
+                            <div class="col-sm-3">
+                                <select name="filtro_mes" id="filtro_mes" onchange="ListaContatos()"
+                                    class="form-select-sm form-control">
+                                    <option value="">Selecione o Mês</option>
+                                    <option value="Janeiro">Janeiro</option>
+                                    <option value="Fevereiro">Fevereiro</option>
+                                    <option value="Março">Março</option>
+                                    <option value="Abril">Abril</option>
+                                    <option value="Maio">Maio</option>
+                                    <option value="Junho">Junho</option>
+                                    <option value="Julho">Julho</option>
+                                    <option value="Agosto">Agosto</option>
+                                    <option value="Setembro">Setembro</option>
+                                    <option value="Outubro">Outubro</option>
+                                    <option value="Novembro">Novembro</option>
+                                    <option value="Dezembro">Dezembro</option>
+                                </select>
                             </div>
-                        </form>
-                    </section>
-
-
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <table id="grid-contatos" class="table table-striped">
-                                <!--<thead>
-                        <tr>
-                            <th scope="col">#</th><br>
-                            <th scope="col">Nome</th><br>
-                            <th scope="col">Especialidade</th><br>
-                            <th scope="col">Preço</th>
-                            <th scope="col">Telefone</th>
-                            <th scope="col">E-mail</th>
-                            <th scope="col">Cidade</th>
-                        </tr>
-                    </thead>-->
-                                <tbody id="table-contatos">
-                                </tbody>
-                            </table>
                         </div>
-                    </div>
+                    </form>
+                </section>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <table id="grid-contatos" class="table table-striped">
+                        <tbody id="table-contatos">
+                        </tbody>
+                    </table>
                 </div>
             </div>
-
-
         </div>
     </main>
 
     <footer>
         © Copyright 2021 VirtualMed
     </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -152,10 +132,6 @@
                                                         Consulta: ${agendamedico.mes}<br>
                                                         Consulta: ${agendamedico.telefone}<br>
                                                     </p>`);
-
-
-
-
 
 
                 }
