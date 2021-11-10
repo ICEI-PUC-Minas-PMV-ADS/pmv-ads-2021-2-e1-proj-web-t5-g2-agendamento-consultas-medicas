@@ -1,0 +1,14 @@
+body {
+  background-color: #bac5df;
+  font-family: "Lato";
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

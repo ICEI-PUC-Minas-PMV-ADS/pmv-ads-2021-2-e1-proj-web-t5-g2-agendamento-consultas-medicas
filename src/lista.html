@@ -1,76 +1,341 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!--<link rel="stylesheet" href="Reset.css" />-->
-    <link rel="stylesheet" href="style.css" />
-    <style></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Consultas marcadas</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="StyleMedArea.css" />
   </head>
-  
-  <body class="">
-    <nav>
-      </br>
-      <div class="fig">
-        <img src="">
-      </div> 
-        </br>
-      <div class="boxMenu">
-        <p class="boxText">Paciente</p>
+
+  <body onload="init()">
+    <h1>Consultas marcadas (CRUD)</h1>
+    <div class="container">
+      <div class="row">
+        <div id="msg" class="col-sm-10 offset-sm-1">
+          <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+        </div>
       </div>
 
-       </br></br> <!-- hue hue -->
+      <form id="form-contato">
+        <div class="form-group row">
+          <div class="col-sm-4">
+            <label for="inputId">Id</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputId"
+              placeholder="ID"
+              disabled
+            />
+          </div>
+          <div class="col-sm-8">
+            <label for="inputNome">Nome </label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputNome"
+              name="nome"
+              required
+              placeholder="Informe o nome do paciente"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-5">
+            <label for="inputTelefone">Telefone </label>
+            <input
+              type="number"
+              class="form-control"
+              id="inputTelefone"
+              name="telefone"
+              required
+              placeholder="Telefone"
+            />
+          </div>
+          <div class="col-sm-7">
+            <label for="inputEmail">
+              data
+              <!--antigo e-mail-->
+            </label>
 
-      <ul>
-        <div class="espaco"></div>
-        <div class="Topic">
-          <il>
-            <p class="text">Painel</p>
-          </il>
-        </div>
-        <div class="espaco"></div>
-        <div class="Topic">
-          <il>
-            <p class="text">Cadastro</p>
-          </il>
-        </div>
-        <div class="espaco"></div>
-        <div class="Topic1">
-          <il>
-            <p class="text1">Meus Dados</p>
-          </il>
-        </div>
-        <div class="espaco"></div>
-        <div class="Topic">
-          <il>
-            <p class="text">Agendamentos</p>
-          </il>
-        </div>
-        <div class="espaco"></div>
-        <div class="Topic1">
-          <il>
-            <p class="text1">Consultas Agendada</p>
-          </il>
-        </div>
-        <div class="espaco"></div>
-        <div class="Topic">
-          <il>
-            <p class="text">Historico de Consulta</p>
-          </il>
-        </div>
-        <div class="espaco"></div>
-        <div class="Topic1">
-          <il>
-            <p class="text1">Consultas finalizadas</p>
-          </il>
-        </div>
-      </ul>
+            <input
+              type="date"
+              class="form-control"
+              id="inputEmail"
+              name="data"
+              required
+              placeholder="Informe a data"
+            />
+          </div>
+          <div class="col-sm-7">
+            <label for="inputHora"> hora </label>
 
-      </br> </br> <!-- hue hue -->
-      
-      <div class="boxMenu">
-          <p class="boxText">Desconectar</p>
+            <input
+              type="time"
+              class="form-control"
+              id="inputHora"
+              name="hora"
+              required
+              placeholder="informe o horario"
+            />
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-6">
+              <label for="inputCidade"
+                >cidade
+                <!--antica cidade--></label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="inputCidade"
+                placeholder="Sua Clinica"
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="inputCategoria"
+                >especialidade
+                <!--antigo categoria -->
+              </label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputCategoria"
+                name="esepciadade"
+                required
+                placeholder="especialidade desejada"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <label for="inputSite">
+                  convenio
+                  <!-- antigo site -->
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputSite"
+                  name="convenio"
+                  required
+                  placeholder="seu convenio"
+                />
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <input
+                  type="button"
+                  class="btn btn-warning"
+                  id="btnUpdate"
+                  value="Alterar"
+                />
+                <input
+                  type="button"
+                  class="btn btn-danger"
+                  id="btnDelete"
+                  value="Excluir"
+                />
+                <input
+                  type="button"
+                  class="btn btn-secondary"
+                  id="btnClear"
+                  value="Finalizar Consulta"
+                />
+              </div>
+            </div>
+          </div>
+          <link />
+          <!-- desta parte em diante esta tudo compiado na pasta area-do-medico -->
+        </div>
+      </form>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <table id="grid-contatos" class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Data</th>
+                <th scope="col">hora</th>
+                <th scope="col">cidade</th>
+                <th scope="col">especialidade</th>
+                <th scope="col">convenio</th>
+              </tr>
+            </thead>
+            <tbody id="table-contatos">
+              <tr>
+                <td scope="row">1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-    </nav>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+      function exibeContatos() {
+        // Remove todas as linhas do corpo da tabela
+        $("#table-contatos").html("");
+
+        // Popula a tabela com os registros do banco de dados
+        for (i = 0; i < db.data.length; i++) {
+          let contato = db.data[i];
+          $("#table-contatos").append(`<tr><td scope="row">
+                                                    ${contato.id}</td>
+                                                <td>${contato.nome}</td>
+                                                <td>${contato.telefone}</td>
+                                                <td>${contato.email}</td>
+                                                <td>${
+                                                  contato.hora
+                                                    ? contato.hora
+                                                    : "-----"
+                                                }</td>
+                                                <td>${contato.cidade}</td>
+                                                <td>${contato.categoria}</td>
+                                                <td>${contato.website}</td>
+                                            </tr>`);
+        }
+      }
+
+      function init() {
+        // Adiciona funções para tratar os eventos
+        $("#btnInsert").click(function () {
+          // Verfica se o formulário está preenchido corretamente
+          if (!$("#form-contato")[0].checkValidity()) {
+            displayMessage("Preencha o formulário corretamente.");
+            return;
+          }
+
+          // Obtem os valores dos campos do formulário
+          let campoNome = $("#inputNome").val();
+          let campoTelefone = $("#inputTelefone").val();
+          let campoEmail = $("#inputEmail").val();
+          let campoHora = $("#inputHora");
+          let campoCidade = $("#inputCidade").val();
+          let campoCategoria = $("#inputCategoria").val();
+          let campoSite = $("#inputSite").val();
+          let contato = {
+            nome: campoNome,
+            telefone: campoTelefone,
+            email: campoEmail,
+            hora: campoHora,
+            cidade: campoCidade,
+            categoria: campoCategoria,
+            website: campoSite,
+          };
+
+          insertContato(contato);
+
+          // Reexibe os contatos
+          exibeContatos();
+
+          // Limpa o formulario
+          $("#form-contato")[0].reset();
+        });
+
+        // Intercepta o click do botão Alterar
+        $("#btnUpdate").click(function () {
+          // Obtem os valores dos campos do formulário
+          let campoId = $("#inputId").val();
+          if (campoId == "") {
+            displayMessage("Selecione um contato para ser alterado.");
+            return;
+          }
+          let campoNome = $("#inputNome").val();
+          let campoTelefone = $("#inputTelefone").val();
+          let campoEmail = $("#inputEmail").val();
+          let campoHora = $("#inputHora").val();
+          let campoCidade = $("#inputCidade").val();
+          let campoCategoria = $("#inputCategoria").val();
+          let campoSite = $("#inputSite").val();
+          let contato = {
+            nome: campoNome,
+            telefone: campoTelefone,
+            email: campoEmail,
+            hora: campoHora,
+            cidade: campoCidade,
+            categoria: campoCategoria,
+            website: campoSite,
+          };
+
+          updateContato(parseInt(campoId), contato);
+
+          // Reexibe os contatos
+          exibeContatos();
+
+          // Finalizr consulata
+        });
+
+        // Intercepta o click do botão Excluir
+        $("#btnDelete").click(function () {
+          let campoId = $("#inputId").val();
+          if (campoId == "") {
+            displayMessage("Selecione um contato a ser excluído.");
+            return;
+          }
+          deleteContato(parseInt(campoId));
+
+          // Reexibe os contatos
+          exibeContatos();
+
+          // finalizar consulta
+        });
+
+        // Intercepta o click do botão Listar Contatos
+        $("#btnClear").click(function () {
+          $("#form-contato")[0].reset();
+        });
+
+        // Oculta a mensagem de aviso após alguns segundos
+        $("#msg").bind("DOMSubtreeModified", function () {
+          window.setTimeout(function () {
+            $(".alert")
+              .fadeTo(500, 0)
+              .slideUp(500, function () {
+                $(this).remove();
+              });
+          }, 5000);
+        });
+
+        // Preenche o formulário quando o usuario clicar em uma linha da tabela
+        $("#grid-contatos").on("click", "tr", function (e) {
+          let linhaContato = this;
+          colunas = linhaContato.querySelectorAll("td");
+
+          $("#inputId").val(colunas[0].innerText);
+          $("#inputNome").val(colunas[1].innerText);
+          $("#inputTelefone").val(colunas[2].innerText);
+          $("#inputEmail").val(colunas[3].innerText);
+          $("#inputHora").val(colunas[4].innerText);
+          $("#inputCidade").val(colunas[5].innerText);
+          $("#inputCategoria").val(colunas[6].innerText);
+          $("#inputSite").val(colunas[7].innerText);
+        });
+
+        exibeContatos();
+      }
+    </script>
+    <script src="appColsuta.js"></script>
   </body>
 </html>
