@@ -29,8 +29,8 @@ function generateUUID() { // Public Domain/MIT
 // Dados de usuários para serem utilizados como carga inicial
 const dadosIniciais = {
     usuarios: [
-        { "id": generateUUID (), "login": "admin", "senha": "123", "nome": "Administrador do Sistema", "email": "admin@abc.com" ,  "cpjcnpj": "00000000000" , "telefone": "31931313131" , "sel": "p"},
-        { "id": generateUUID (), "login": "user", "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com" , "cpjcnpj": "00000000000" , "telefone": "31931313131" , "sel": "m"},
+        { "id": generateUUID (), "login": "paciente", "senha": "123", "nome": "Administrador do Sistema", "email": "admin@abc.com" ,  "cpjcnpj": "00000000000" , "telefone": "31931313131" , "sel": "p"},
+        { "id": generateUUID (), "login": "administrador", "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com" , "cpjcnpj": "00000000000" , "telefone": "31931313131" , "sel": "m"},
     ]
 };
 
