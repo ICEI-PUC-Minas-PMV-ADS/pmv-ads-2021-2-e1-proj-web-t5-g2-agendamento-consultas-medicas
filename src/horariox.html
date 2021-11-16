@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamentos</title>
+    <link rel="stylesheet" href="style-PadraoH.css">
+    <script src="dbfake.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="menu-principal">
+            <p class="perfil"><a><img src="./img/login-paciente.jpg"></a></p>
+            <h5 class="perfil">Paciente</h5>
+            <ul class="nav flex-column">
+                <li><a href="./panel-paciente.html">Painel</a></li>
+
+                <li class='sub-menu'><a href='#cadastro'>Cadastro<div class=''></div></a>
+                    <ul>
+                        <li><a href='#cadastro'>Meus Dados</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#agendamentos'>Agendamentos<div class=''></div></a>
+                    <ul>
+                        <li><a href='#agendamentos'>Consultar Agenda</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#consultas'>Histórico de Consultas<div class=''>
+                        </div></a>
+                    <ul>
+                        <li><a href='#consultas'>Consultas Finalizadas</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Desconectar</a>
+
+        </nav>
+    </header>
+
+
+
+    <main class="conteudo">
+        <div class="container">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <img class="rounded mx-auto d-block imglogo" src="./logo.png" alt="logo">
+            </div>
+            <div class="row">
+                <section>
+                    <div id="hm" class="manha">
+                        <h3>Horário manha</h3>
+                        <input type="radio" name="horario da manha" value="08:00 ás 08:30">08:00 ás 08:30<br>
+                        <input type="radio" name="horario da manha" value="08:30 ás 09:00">08:30 ás 09:00<br>
+                        <input type="radio" name="horario da manha" value="09:00 ás 09:30">09:00 ás 09:30<br>
+                        <input type="radio" name="horario da manha" value="09:30 ás 10:00">09:30 ás 10:00<br>
+                        <input type="radio" name="horario da manha" value="10:00 ás 10:30">10:00 ás 10:30<br>
+                        <input type="radio" name="horario da manha" value="10:30 ás 11:00">10:30 ás 11:00<br>
+                        <input type="radio" name="horario da manha" value="11:00 ás 11:30">11:00 ás 11:30<br>
+                        <input type="radio" name="horario da manha" value="11:30 ás 12:00">11:30 ás 12:00<br>
+                        <input type="radio" name="horario da manha" value="12:00 ás 12:30">12:00 ás 12:30<br>
+                        <input type="radio" name="horario da manha" value="12:30 ás 13:00">12:30 ás 13:00<br>
+                        <br>
+                    </div>
+                </section>
+                <section>
+                    <div id="ht" class="tarde">
+                        <h3>Horário tarde</h3>
+
+                        <input type="radio" name="horario da manha" value="13:00 ás 13:30">13:00 ás 13:30<br>
+                        <input type="radio" name="horario da manha" value="13:30 ás 14:00">13:30 ás 14:00<br>
+                        <input type="radio" name="horario da manha" value="14:00 ás 14:30">14:00 ás 14:30<br>
+                        <input type="radio" name="horario da manha" value="14:30 ás 15:00">14:30 ás 15:00<br>
+                        <input type="radio" name="horario da manha" value="15:00 ás 15:30">15:00 ás 15:30<br>
+                        <input type="radio" name="horario da manha" value="15:30 ás 16:00">15:30 ás 16:00<br>
+                        <input type="radio" name="horario da manha" value="16:00 ás 16:30">16:00 ás 16:30<br>
+                        <input type="radio" name="horario da manha" value="16:30 ás 17:00">16:30 ás 17:00<br>
+                        <input type="radio" name="horario da manha" value="17:00 ás 17:30">17:00 ás 17:30<br>
+                        <input type="radio" name="horario da manha" value="17:30 ás 18:00">17:30 ás 18:00<br>
+                        <br>
+                    </div>
+                    <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Voltar</a>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+        Copyright 2021 (C) VirtualMed
+    </footer>
+
+    <script>
+        let prods = '';
+        for (i = 0; i < db.dados.length; i++) {
+            prods += `("Horário da Manhã"),("Horário da Tarde") : ${db.dados[i].Horário}`
+        }
+        document.getElementById('hm'), ('ht').innerHTML = prods;
+    </script>
+
+
+
+</html>
