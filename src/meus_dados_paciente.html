@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeusDadosPaciente</title>
+    <link rel="stylesheet" href="style-MeusDadosPaciente.css">
+</head>
+
+<body onload="ListaContatos()">
+    <header>
+        <div class="img"><img src="logo.png" alt="logo" /></div>
+        </div>
+        
+        <aside>
+        <nav class="menu-principal">
+            <p class="perfil"><a><img src="./login-paciente.jpg"></a></p>
+            <h5 class="perfil">Paciente</h5>
+            <ul class="nav flex-column">
+                <li><a href="./panel-paciente.html">Painel</a></li>
+
+                <li class='sub-menu'><a href='#cadastro'>Cadastro<div class=''></div></a>
+                    <ul>
+                        <li><a href='#cadastro'>Meus Dados</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#agendamentos'>Agendamentos<div class=''></div></a>
+                    <ul>
+                        <li><a href='#agendamentos'>Consultar Agenda</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#consultas'>Histórico de Consultas<div class=''>
+                        </div></a>
+                    <ul>
+                        <li><a href='#consultas'>Consultas Finalizadas</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Desconectar</a>
+            <br><br>
+            </nav>
+            </aside>
+            <main>
+                <p class="perfil2"><a><img src="./login-paciente.jpg"></a></p>
+                <h1>Meus Dados</h1>
+
+                <div class="cadastro1">
+                <input class="inputDados" type="text" id="inputNome" required
+                    placeholder="Primeiro Nome">
+                <input class="inputDados" type="text" id="inputSobrenome" required
+                    placeholder="Sobrenome"><br><br>
+                </div>
+                    
+                <div class="cadastro2">
+                <input class="inputDados" type="text" id="CPF" required
+                    placeholder="CPF">
+                <input class="inputDados" type="text" id="inputConvenio" required
+                    placeholder="Convênio"><br><br>
+                </div>
+                
+
+                <div class="cadastro3">
+                <input class="inputDados" type="text" id="inputTel" required
+                    placeholder="Telefone">
+                    <input class="inputDados" type="text" id="inputEmail" required
+                    placeholder="Email">
+                
+                </div><br>
+
+                <div class="cadastro4">
+                    <input class="inputDados" type="text" id="inputCidade" required
+                    placeholder="Cidade">
+                    <input class="inputDados" type="text" id="inputEndereco" required
+                    placeholder="Endereço">
+                </div>
+
+                <input type="submit" id="cancelar" value="Cancelar" />
+
+                <input type="submit" id="salvar" value="Salvar" />
+            </main>
+    </header>
+
+</body>
+
+</html>
