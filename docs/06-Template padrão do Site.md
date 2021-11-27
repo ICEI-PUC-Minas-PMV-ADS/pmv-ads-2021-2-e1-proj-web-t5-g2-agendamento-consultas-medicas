@@ -5,8 +5,8 @@ elaborado anteriormente.
 O template criado está disponível no site https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/src/index.html.....  e é composto pelos seguintes 
 layouts: 
 - Tela principal
-- Modal de mensagens
-- Tela de visualização de notícia
+- Painel Paciente
+- Painel Administrador - Médico
 A responsividade segue o padrão do Bootstrap
 
 ## Tela Principal
