@@ -1,14 +1,24 @@
 # Template padrão do site
 
 O  padrão  de  layout  a  ser  utilizado  pelo  site  tem  correspondência  ao  projeto  de  Interface 
-elaborado anteriormente, conforme figura 1 e 2.
+elaborado anteriormente.
+O template criado está disponível no site http://github.com/.....  e é composto pelos seguintes 
+layouts: 
+● Tela principal
+● Modal de mensagens
+● Tela de visualização de notícia
+A responsividade segue o padrão do Bootstrap
+
+Tela Principal
+Tela que abrange apenas tela de login, onde deverá inserir usuário, senha e tipo de acesso. Conforme figura 1.
 
 ![Index](img/01-Tela-Inicial-Online.png)
 
-                Figura 1 - Pagina Inicial
+                Figura 1 - Tela Principal
                 
                 
-
+Painel Paciente
+Layout com a exibição todas as visualizações iniciais do site, menu com painel de busca, editar meu cadastro, consultar agenda e historico de consultas.  Conforme figura 2.
 ![Index-Paciente](img/01-Tela-Inicial-Paciente-On.png)
 
                 Figura2  - Tela Inicial Paciente
