@@ -4,7 +4,11 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 Pagina Inicial (RF-01, RF-02 e RF-03)
 A tela principal do sistema apresenta login, senha e tipo de acesso. 
 Os dados cadastrados e carregados são armazenadas no LocalStorage com estruturas dados baseada em JSON. Um 
-exemplo da tela é apresentada na Figura X.
+exemplo da tela é apresentada na Figura 1.
+
+![Index](img/01-Tela-Inicial-Online.png)
+
+                Figura 1 - Tela Principal
 
 
 
