@@ -1,7 +1,8 @@
 # Programação de Funcionalidades
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são são apresentadas na sequência.
-Pagina Inicial (RF-01, RF-02 e RF-03)
+
+## Pagina Inicial (RF-01, RF-02 e RF-03)
 A tela principal do sistema apresenta login, senha e tipo de acesso. 
 Os dados cadastrados e carregados são armazenadas no LocalStorage com estruturas dados baseada em JSON. Um 
 exemplo da tela é apresentada na Figura 1.
