@@ -9,7 +9,7 @@ elaborado anteriormente, conforme figura 1 e 2.
                 
                 
 
-![Index-Paciente](img/01-Tela-Inicial-Paciente-Online.png)
+![Index-Paciente](img/01-Tela-Inicial-Paciente-On.png)
                 Figura2  - Tela Inicial Paciente
 
 
