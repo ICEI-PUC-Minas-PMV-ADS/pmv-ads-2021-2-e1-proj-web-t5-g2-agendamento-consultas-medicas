@@ -10,6 +10,17 @@ exemplo da tela é apresentada na Figura 1.
 ![Index](img/01-Tela-Inicial-Online.png)
 
                 Figura 1 - Tela Principal
+                
+### Requisitos atendidos
+- RF-01
+- RF-02
+- RF-03
+
+### Artefatos da funcionalidade
+- index.html
+- login.js
+- style-Index.css
+- logo.png
 
 
 
