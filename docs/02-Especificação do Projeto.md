@@ -58,7 +58,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-|RF-01| **Login** - O site deve permitir que o usuário realize login utilizando o email e a senha cadastrados.                                                     |Alta | 
+|RF-01| **Login** - O site deve permitir que o usuário realize login utilizando o usuário, senha e tipo de acesso.                                                     |Alta | 
 |RF-02| **Cadastro Usuário e Senha** - O site deve gerenciar o usuário.                                                                                                     |Média|
 |RF-03|**Tipos de Cadastro** - O site deve possuir 2 usuários diferentes, sendo: Administrador e Paciente.                                                                   |Alta |                                                                                                  
 |RF-06| **Cadastro Administrador** -O site deve permitir que o administrador da cadastre na clínica vinculando seus médicos e preenchendo os requisitos: Endereço, CNPJ, Razão Social, telefone de contato, Senha e e-mail.                                                                                                                                |Alta |                                                                              
