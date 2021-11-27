@@ -4,12 +4,12 @@ O  padrão  de  layout  a  ser  utilizado  pelo  site  tem  correspondência  ao
 elaborado anteriormente.
 O template criado está disponível no site https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/src/index.html.....  e é composto pelos seguintes 
 layouts: 
-● Tela principal
-● Modal de mensagens
-● Tela de visualização de notícia
+- Tela principal
+- Modal de mensagens
+- Tela de visualização de notícia
 A responsividade segue o padrão do Bootstrap
 
-Tela Principal
+## Tela Principal
 Tela que abrange apenas tela de login, onde deverá inserir usuário, senha e tipo de acesso. Conforme figura 1.
 
 ![Index](img/01-Tela-Inicial-Online.png)
@@ -17,7 +17,7 @@ Tela que abrange apenas tela de login, onde deverá inserir usuário, senha e ti
                 Figura 1 - Tela Principal
                 
                 
-Painel Paciente
+## Painel Paciente
 Layout com a exibição todas as visualizações iniciais do site, menu com painel de busca, editar meu cadastro, consultar agenda e historico de consultas.  Conforme figura 2.
 ![Index-Paciente](img/01-Tela-Inicial-Paciente-On.png)
 
