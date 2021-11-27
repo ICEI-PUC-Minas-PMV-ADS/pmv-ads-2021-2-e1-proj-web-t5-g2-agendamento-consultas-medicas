@@ -1,10 +1,13 @@
 # Template padrão do site
 
 O  padrão  de  layout  a  ser  utilizado  pelo  site  tem  correspondência  ao  projeto  de  Interface 
-elaborado anteriormente, conforme Figura X
+elaborado anteriormente, conforme figura 1 e 2.
 
 ![Index](img/01-Tela-Inicial-Online.png)
+                Figura 1 - Pagina Inicial
 
+![Index-Paciente](01-Tela-Inicial-Paciente-Online.png)
+                Figura  - Tela Inicial Paciente
 
 
 
