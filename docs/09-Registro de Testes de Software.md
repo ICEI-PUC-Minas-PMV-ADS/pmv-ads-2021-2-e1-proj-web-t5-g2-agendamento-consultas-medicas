@@ -34,6 +34,15 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 ![CT-001](img/Caso-Teste/CT-03/CT-03-SCRIP.png)
 
                 Codigo Validação
+                
+                
+###                     CT-04 Alterar algum dados do médico
+
+![CT-004](img/Caso-Teste/CT-04/CT-04-001.png)
+
+![CT-004](img/Caso-Teste/CT-04/CT-04-002.png)
+
+![CT-004](img/Caso-Teste/CT-04/CT-04-003.png)
 
 ## Avaliação
 
