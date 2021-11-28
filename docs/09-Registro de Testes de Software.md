@@ -4,17 +4,23 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
-### CT-01 Login
+###                   CT-01 Login
 ![CT-001](img/Caso-Teste/CT-01/CT-01-001.png)
 
 ![CT-001](img/Caso-Teste/CT-01/CT-01-002.png)
 
-### CT-02 Login - Restrição de Acesso
+
+
+###                   CT-02 Login - Restrição de Acesso
 ![CT-001](img/Caso-Teste/CT-02/CT-02-001.png)
 
 ![CT-001](img/Caso-Teste/CT-02/CT-02-002.png)
+                       #### Codigo
+![CT-002-Scrip](img/Caso-Teste/CT-02/CT-02-SCRIP.png)
 
-### CT-03 Login - Campo em branco
+
+
+###                     CT-03 Login - Campo em branco
 ![CT-001](img/Caso-Teste/CT-03/CT-03-001.png)
 
 ![CT-001](img/Caso-Teste/CT-03/CT-03-002.png)
