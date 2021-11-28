@@ -17,6 +17,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 ![CT-001](img/Caso-Teste/CT-02/CT-02-002.png)
                       
 ![CT-002-Scrip](img/Caso-Teste/CT-02/CT-02-SCRIP.png)
+
                   Codigo Validação
 
 
