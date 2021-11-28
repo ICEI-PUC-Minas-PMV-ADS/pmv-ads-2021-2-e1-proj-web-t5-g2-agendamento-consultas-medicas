@@ -63,7 +63,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-03|**Tipos de Cadastro** - O site deve possuir 2 usuários diferentes, sendo: Administrador e Paciente.                                                                   |Alta |                                                                                                  
 |RF-04| **Cadastro Administrador** -O site deve permitir que o administrador  cadastre seus médicos e preenchendo os requisitos: Usuário, Nome, E-mail, CPF/CNPJ, Telefone e senha.                                                                                                                                |Alta |                                                                              
 |RF-05| **Cadastro Paciente** -O site deve permitir que os pacientes se cadastrem, preenchendo os requisitos: Usuário, Nome, E-mail, CPF/CNPJ, Telefone e Senha.      |Alta |
-|RF-06| **Agendamento de Consulta** - O site deve permitir que o paciente/administrador agende consultas.                                                                   |Alta |
+|RF-06| **Agendamento de Consulta** - O site deve permitir que o paciente/administrador agende consultas utlizando seu login de acesso, com possibilidade de filtros: Cidades, Especialidade e Convênio.                                                                   |Alta |
 |RF-07|**Cancelamento de consulta** - O site deve permitir que o paciente/administrador cancele/reagende consultas.                                                          |Média|
 |RF-08| **Consultar Histórico** - O site deve permitir a visualização ou relatório com histórico do paciente/médico/administrador.                                              |Alta |
 |RF-09| **Consultar Médicos** - O site deve permitir a visualização ou relatório com informações de horário de atendimento, data e avaliações de pacientes referente a consulta.                                                                                                                                                                   |Alta |
@@ -72,8 +72,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-12|**Pós Consulta Paciente** -  O sistema deve permitir que o cliente faça um comentário a respeito da sua experiência e avalie o médico e a clínica por estrelas, sendo uma para péssimo e cinco para excelente.                                                                                                                                       |Média|    
 |RF-13|**Lembrete Periódico** - O site deve notificar o cliente de 6 em 6 meses informando quando foi a ultima consulta.                                                     |Baixa|
 |RF-14|**Pré consulta Médico/Clínica** - O site deve notificar ao administrador quando efetuado um agendamento informando os dados do paciente, m.                        |Média|
-|RF-15|**Notificação de cancelamento Médico/Clínica** - O site deverá notificar ao médico/clínica quando ouver um cancelamento por parte do paciente informando o motivo.        |Média|
-|RF-16|**Notificação de cancelamento Paciente** - O site deve notificar ao cliente quando ouver um cancelamento por parte do médico informando o motivo.                     |Média|
+
      
 
 ### Requisitos não Funcionais
