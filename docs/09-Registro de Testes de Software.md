@@ -29,7 +29,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ![CT-001](img/Caso-Teste/CT-03/CT-03-003.png)
 
-![CT-001](img/Caso-Teste/CT-03/CT-03-004.png)
+![CT-001](img/Caso-Teste/CT-03/CT-03-04.png)
 
 ## Avaliação
 
