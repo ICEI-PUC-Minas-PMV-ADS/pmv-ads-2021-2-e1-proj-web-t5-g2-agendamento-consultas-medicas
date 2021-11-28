@@ -22,11 +22,11 @@ exemplo da tela é apresentada na Figura 1.
 - style-Index.css
 - logo.png
 
-## Estrutura de Dados
+### Estrutura de Dados
 
 ![Index](img/JS-login.png)
 
-## Instruções de acesso
+### Instruções de acesso
 1. Abra um navegador de Internet e informe a seguinte URL: https://replit.com/@hugokioshi ou https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/src/index.html
 2. A tela de login é a primeira funcionalidade exibida pelo aplicativo.
 
@@ -56,7 +56,7 @@ O paciente consegue agendar consultas utlizando seu login de acesso, com possibi
 - db-Geral.js
 - logo.png
 
-## Estrutura de Dados
+### Estrutura de Dados
 
 ![Index](img/JS-Geral.png)
 
@@ -71,7 +71,7 @@ O administrador consegue alterar informações do medico como: Nome, CPF, Valor,
 - db-Geral.js
 - logo.png
 
-## Estrutura de Dados
+### Estrutura de Dados
 
 ![Index](img/JS-Geral.png)
 
