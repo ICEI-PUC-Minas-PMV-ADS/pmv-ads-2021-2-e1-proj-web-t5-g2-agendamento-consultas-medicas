@@ -14,6 +14,8 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 
 ![CT-004](img/Caso-Teste/CT-04/CT-04.png)
 
+![CT-005](img/Caso-Teste/CT-05/CT-05.png)
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
