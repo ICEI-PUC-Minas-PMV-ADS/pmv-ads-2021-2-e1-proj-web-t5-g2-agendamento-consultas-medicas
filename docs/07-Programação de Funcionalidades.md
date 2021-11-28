@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são são apresentadas na sequência.
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
 
 ## Pagina Inicial (RF-01, RF-02 e RF-03)
 A tela principal do sistema apresenta login, senha e tipo de acesso. 
@@ -42,11 +42,11 @@ A  tela permite ao usuário que faça um pré-cadastro  preenchendo os requisito
 
 ### Instruções de acesso
 1. Abra um navegador de Internet e informe a seguinte URL: https://replit.com/@hugokioshi ou https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/src/index.html.
-2. Clica em novo usuario e preenche o formulário.
+2. Clica em novo usuário e preenche o formulário.
 
 
 ## Painel Paciente/ Consultar Médicos (RF-06)
-O paciente consegue agendar consultas utlizando seu login de acesso, com possibilidade de filtrar: Cidades, Especialidade e Convênio.
+O paciente consegue agendar consultas utilizando seu login de acesso, com possibilidade de filtrar: Cidades, Especialidade e Convênio.
 
 ![CadastroLogin](img/RF-06.png)
 
@@ -61,7 +61,7 @@ O paciente consegue agendar consultas utlizando seu login de acesso, com possibi
 ![Index](img/JS-Geral.png)
 
 ## Alteração de dados Médicos (RF-07)
-O administrador consegue alterar informações do medico como: Nome, CPF, Valor, Especialidade, Horário, Jornada, E-mail, Telefone.
+O administrador consegue alterar informações do médico como: Nome, CPF, Valor, Especialidade, Horário, Jornada, E-mail, Telefone.
 
 ![MeuCadMedico](img/RF-07.png)
 
@@ -79,8 +79,8 @@ O administrador consegue alterar informações do medico como: Nome, CPF, Valor,
 
 
 
-## Consultas Marcadas do medico 
-O medico consegui  vizuailzar e finalizar as suas consultas marcadas  
+## Consultas Marcadas do médico 
+O médico consegui  visualizar e finalizar as suas consultas marcadas  
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/blob/2ecf45f386d90affd0900e8d797b5164d72a873b/docs/img/AgendaCRUD.jpeg 
 
