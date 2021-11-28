@@ -74,7 +74,7 @@ O administrador consegue alterar informações do medico como: Nome, CPF, Valor,
 ## Consultas Marcadas 
 O medico consegui  vizuailzar e finalizar as suas consultas marcadas  
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/blob/2ecf45f386d90affd0900e8d797b5164d72a873b/docs/img/AgendaCRUD.jpeg
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/blob/2ecf45f386d90affd0900e8d797b5164d72a873b/docs/img/AgendaCRUD.jpeg 
 
 ## Estrutura de Dados
 
