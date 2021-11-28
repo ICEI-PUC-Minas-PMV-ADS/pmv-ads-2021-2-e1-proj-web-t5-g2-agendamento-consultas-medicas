@@ -24,7 +24,7 @@ exemplo da tela é apresentada na Figura 1.
 
 ## Estrutura de Dados
 
-![Index](img/JS-login.png.png)
+![Index](img/JS-login.png)
 
 
 
