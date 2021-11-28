@@ -33,7 +33,7 @@ exemplo da tela é apresentada na Figura 1.
 ## Cadastro (RF-06 e RF-07)
 A  tela permite ao usuário que faça um pré-cadastro  preenchendo os requisitos: Usuário, Nome, E-mail, CPF/CNPJ, Telefone e senha.
 
-![CadastroLogin](Cad-On.png)
+![CadastroLogin](img/Cad-On.png)
 
 
 
