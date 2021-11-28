@@ -12,9 +12,9 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 
 ###                   CT-02 Login - Restrição de Acesso
-![CT-001](img/Caso-Teste/CT-02/CT-02-001.png)
+![CT-002](img/Caso-Teste/CT-02/CT-02-001.png)
 
-![CT-001](img/Caso-Teste/CT-02/CT-02-002.png)
+![CT-002](img/Caso-Teste/CT-02/CT-02-002.png)
                       
 ![CT-002-Scrip](img/Caso-Teste/CT-02/CT-02-SCRIP.png)
 
@@ -23,15 +23,15 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 
 ###                     CT-03 Login - Campo em branco
-![CT-001](img/Caso-Teste/CT-03/CT-03-001.png)
+![CT-003](img/Caso-Teste/CT-03/CT-03-001.png)
 
-![CT-001](img/Caso-Teste/CT-03/CT-03-002.png)
+![CT-003](img/Caso-Teste/CT-03/CT-03-002.png)
 
-![CT-001](img/Caso-Teste/CT-03/CT-03-003.png)
+![CT-003](img/Caso-Teste/CT-03/CT-03-003.png)
 
-![CT-001](img/Caso-Teste/CT-03/CT-03-04.png)
+![CT-003](img/Caso-Teste/CT-03/CT-03-04.png)
 
-![CT-001](img/Caso-Teste/CT-03/CT-03-SCRIP.png)
+![CT-003](img/Caso-Teste/CT-03/CT-03-SCRIP.png)
 
                 Codigo Validação
                 
@@ -40,9 +40,11 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ![CT-004](img/Caso-Teste/CT-04/CT-04-001.png)
 
-![CT-004](img/Caso-Teste/CT-04/CT-04-002.png)
+![CT-004](img/Caso-Teste/CT-04/CT-04-02.png)
 
-![CT-004](img/Caso-Teste/CT-04/CT-04-003.png)
+![CT-004](img/Caso-Teste/CT-04/CT-04-03.png)
+
+![CT-004](img/Caso-Teste/CT-04/CT-04-04.png)
 
 ## Avaliação
 
