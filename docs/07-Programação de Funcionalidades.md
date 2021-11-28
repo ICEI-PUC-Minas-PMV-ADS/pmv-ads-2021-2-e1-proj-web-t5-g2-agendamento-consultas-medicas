@@ -71,6 +71,14 @@ O administrador consegue alterar informações do medico como: Nome, CPF, Valor,
 - db-Geral.js
 - logo.png
 
+## Estrutura de Dados
+
+![Index](img/JS-Geral.png)
+
+
+
+
+
 ## Consultas Marcadas 
 O medico consegui  vizuailzar e finalizar as suas consultas marcadas  
 
@@ -84,9 +92,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g2-agend
 ##Consultas Agendadas 
 
 
-## Estrutura de Dados
 
-![Index](img/JS-Geral.png)
 
 
 
