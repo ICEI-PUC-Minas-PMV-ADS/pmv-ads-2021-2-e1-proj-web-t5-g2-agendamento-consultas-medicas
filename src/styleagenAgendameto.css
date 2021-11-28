@@ -1,0 +1,184 @@
+html {
+  background-color: #bac5df;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #bac5df;
+  display: flex;
+}
+
+.container-fluid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 0.7fr 1fr 1fr;
+  grid-template-rows: 40% 57% 3%;
+  grid-template-areas:
+    "Box1 Box2 Box2"
+    "Box1 Box3 Box3"
+    "Box1 Box3 Box3"
+    "Box1 Box3 Box3"
+    "Box1 Box4 Box4";
+}
+
+.Box1 {
+  grid-area: Box1;
+}
+
+.Box2 {
+  grid-area: Box2;
+}
+.Box3 {
+  grid-area: Box3;
+}
+
+.Box4 {
+  grid-area: Box4;
+  background-color: turquoise;
+}
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  flex-grow: initial;
+  font-family: "Lato";
+  font-size: 18px;
+}
+
+ul,
+ol {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.fig {
+  background-color: #a5e3f9;
+  box-sizing: border-box;
+  width: 103px;
+  height: 88px;
+  justify-self: center;
+  align-self: center;
+}
+
+.boxMenu {
+  text-align: center;
+  background-color: #8190a5;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  justify-self: center;
+  align-self: center;
+}
+
+.boxText {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.espaco {
+  background-color: #d3dce6;
+  width: auto;
+  height: 1px;
+}
+
+.Topic {
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+}
+
+.Topic1 {
+  background-color: #f9fafc;
+  width: auto;
+  height: auto;
+}
+
+.text1 {
+  color: #47525e;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 17px;
+  padding-left: 31px;
+}
+.text {
+  color: #47525e;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding-left: 19px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.direction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.mm {
+  margin-top: 23px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+h6 {
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+
+.row {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row1 {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row2 {
+  background-color: transparent;
+}
+.lateral {
+  padding-left: 5px;
+  padding-right: 5px;
+}
