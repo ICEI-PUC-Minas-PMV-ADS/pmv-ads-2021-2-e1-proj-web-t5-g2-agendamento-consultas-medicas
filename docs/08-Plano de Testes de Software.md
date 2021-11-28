@@ -5,16 +5,15 @@ Os requisitos para realização dos testes de software são:
 - Navegador da Internet - Chrome, Firefox ou Edge
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
+Exemplo   | Valor do exemplo
+--------- | ------
 
 |Caso de Teste                 |CT-01 - Visualizar notícias principais  |
 |Requisitos Associados         |CT-01 - Visualizar notícias principais  |
 |Objetivo do Teste             |CT-01 - Visualizar notícias principais  |
 |Passos                        |CT-01 - Visualizar notícias principais  |
 |Critérios de Êxito            |CT-01 - Visualizar notícias principais  |
-Exemplo 1 | R$ 10
-Exemplo 2 | R$ 8
-Exemplo 3 | R$ 7
-Exemplo 4 | R$ 8
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
