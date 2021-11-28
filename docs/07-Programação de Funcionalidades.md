@@ -35,6 +35,14 @@ A  tela permite ao usuário que faça um pré-cadastro  preenchendo os requisito
 
 ![CadastroLogin](img/Cad-On.png)
 
+### Artefatos da funcionalidade
+- index.html
+- login.js
+- style-Index.css
+
+### Instruções de acesso
+1. Abra um navegador de Internet e informe a seguinte URL: https://replit.com/@hugokioshi ou https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/src/index.html.
+2. Clica em novo usuario e preenche o formulário.
 
 
 > **Links Úteis**:
