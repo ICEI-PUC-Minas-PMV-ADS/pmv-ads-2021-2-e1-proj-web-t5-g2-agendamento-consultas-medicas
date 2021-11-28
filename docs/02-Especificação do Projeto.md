@@ -8,13 +8,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-**Ana Almeida** tem 27 anos, é secretária em uma clínica médica e é apaixonada por medicina e tecnologia, está sempre se atualizando, gosta de novos desafios no trabalho. Está sempre trabalhando junto aos médicos e superando seus objetivos no trabalho.
+**Ana Almeida** tem 27 anos, é secretária em uma clínica médica e apaixonada por medicina e tecnologia, está sempre se atualizando, gosta de novos desafios no trabalho. Está sempre trabalhando junto aos médicos e superando seus objetivos no trabalho.
 
-**Larissa Lima** tem 35 anos, é médica cardiologista e sócia em uma pequena clínica médica. Gosta de estar sempre em dia com a tecnologia e exige que a clínica onde atende ofereça o agendamento online. Deseja receber notificações de agendamento e cancelamento das consultas de seus pacientes e verificar seus históricos.
+**Larissa Lima** tem 35 anos, é médica cardiologista e sócia em uma pequena clínica médica. Gosta de estar sempre em dia com a tecnologia e exige que a clínica onde atende ofereça o agendamento on-line. Deseja receber notificações de agendamento e cancelamento das consultas de seus pacientes e verificar seus históricos.
 
-**Marcos Daniel** tem 37 anos, é analista de negócio e sócio-diretor de uma empresa. Gosta de explorar a tecnologia e apreciar vinhos. Procura um site que lhe permita realizar o agendamento de suas consultas de forma online pois possui tempo escasso para ficar em ligações. 
+**Marcos Daniel** tem 37 anos, é analista de negócio e sócio-diretor de uma empresa. Gosta de explorar a tecnologia e apreciar vinhos. Procura um site que lhe permita realizar o agendamento de suas consultas de forma on-line, pois possui tempo escasso para ficar em ligações. 
 
-**Nelson Souza** tem 60 anos, é aposentado e pratica Pesca Esportiva. Busca facilidade em realizar o agendamento com os melhores médicos do mercado, sendo bem atendido substituir o agendamento telefônico. 
+**Nelson Souza** tem 60 anos, é aposentado e prática Pesca Esportiva. Busca facilidade em realizar o agendamento com os melhores médicos do mercado, sendo bem atendido substituir o agendamento telefônico. 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -36,7 +36,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |----------------------------|------------------------------------------------------------------------|--------------------------------------------------------------|
 |Ana Almeida                 |Participar na informatização dos agendamentos de consultas da clínica  |Inovação, Agregar novos conhecimentos                          |
 |Ana Almeida                 |Total apoio aos médicos,clínica. Realizando cadastros de médicos,exames|Facilitar nos agendamentos de consultas para pacientes
-|Larissa Lima                |Que meus pacientes realizem o próprio agendamento de forma online      |Digitalizar a empresa                                          |
+|Larissa Lima                |Que meus pacientes realizem o próprio agendamento de forma on-line     |Digitalizar a empresa                                          |
 |Larissa Lima                |Receber  notificação dos agendamentos                                  |para obter total controle da minha agenda                      |
 |Larissa Lima                |Receber notificação de cancelamentos                                   |Para poder realizar possíveis encaixes                         |
 |Marcos Daniel               |Localizar clínicas mais próximas com agenda livre para me atender      |Viajo muito pelo Brasil e preciso de agilidade                 |
