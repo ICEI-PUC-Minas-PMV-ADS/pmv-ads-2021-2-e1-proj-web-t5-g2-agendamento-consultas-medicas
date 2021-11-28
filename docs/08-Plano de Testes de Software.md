@@ -11,6 +11,10 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Objetivo do Teste             |CT-01 - Visualizar notícias principais  |
 |Passos                        |CT-01 - Visualizar notícias principais  |
 |Critérios de Êxito            |CT-01 - Visualizar notícias principais  |
+Exemplo 1 | R$ 10
+Exemplo 2 | R$ 8
+Exemplo 3 | R$ 7
+Exemplo 4 | R$ 8
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
