@@ -21,7 +21,5 @@ A solução implementada conta com os seguintes módulos:
 O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:
 https://link_exemplo.herokuapp.com/
 
-A publicação do site no Heroku é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço: 
+A publicação do site no Heroku é feita através de uma submissão do projeto (push) via git para o repositório remoto que se encontra no endereço: 
 https://git.heroku.com/link_exemplo.git
-
-
