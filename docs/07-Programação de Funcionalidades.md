@@ -30,7 +30,7 @@ exemplo da tela é apresentada na Figura 1.
 1. Abra um navegador de Internet e informe a seguinte URL: https://replit.com/@hugokioshi ou https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/src/index.html
 2. A tela de login é a primeira funcionalidade exibida pelo aplicativo.
 
-## Cadastro (RF-06 e RF-07)
+## Cadastro (RF-04 e RF-05)
 A  tela permite ao usuário que faça um pré-cadastro  preenchendo os requisitos: Usuário, Nome, E-mail, CPF/CNPJ, Telefone e senha.
 
 ![CadastroLogin](img/Cad-On.png)
