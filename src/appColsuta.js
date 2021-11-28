@@ -1,4 +1,4 @@
-/*var db_contatos_inicial = {
+var db_contatos_inicial = {
   data: [
     {
       id: 1,
@@ -155,4 +155,4 @@ function deleteContato(id) {
 
   // Atualiza os dados no Local Storage
   localStorage.setItem("db_contato", JSON.stringify(db));
-}*/
+}

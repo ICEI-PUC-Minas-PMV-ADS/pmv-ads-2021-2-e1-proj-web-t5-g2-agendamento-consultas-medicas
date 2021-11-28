@@ -7,8 +7,29 @@ h1 {
   text-align: center;
 }
 
+#form-contato {
+  background-color: #bac5df;
+  color: #bac5df;
+}
+
 .row {
   display: flex;
   align-content: center;
   justify-content: center;
+}
+
+.dd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+tr th td {
+  display: flex;
+  flex: none;
+  justify-content: space-evenly;
+}
+a {
+  font: #fff;
 }
