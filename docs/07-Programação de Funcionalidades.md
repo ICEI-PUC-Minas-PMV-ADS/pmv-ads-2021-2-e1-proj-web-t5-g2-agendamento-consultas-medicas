@@ -89,12 +89,12 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g2-agend
 - StyleMedArea.CSS
 - appColsuta.js
 
-##Consultas Agendadas 
+## Consultas Agendadas 
 Onde o paciente verá as consultas que tem marcadas 
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/blob/41b2e59c10f9f59b02807c97c863dcdc3e059591/docs/img/agendadas.jpg
 
-###
+### Artefatos da funcionalidade
 - indexagendAmento.HTML
 - styleagenAgendameto.CSS
 
