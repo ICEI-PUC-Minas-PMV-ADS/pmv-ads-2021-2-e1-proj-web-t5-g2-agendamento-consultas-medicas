@@ -6,6 +6,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ### CT-01
 ![CT-001](img/Caso-Teste/CT-01/CT-01-001.png)
+
 ![CT-001](img/Caso-Teste/CT-01/CT-01-002.png)
 
 ## Avaliação
