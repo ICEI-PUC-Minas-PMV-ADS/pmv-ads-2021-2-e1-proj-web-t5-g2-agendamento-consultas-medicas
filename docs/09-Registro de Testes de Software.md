@@ -46,6 +46,18 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ![CT-004](img/Caso-Teste/CT-04/CT-04-04.png)
 
+
+
+###                     CT-05 Visualizar alteração do médico no painel do paciente
+
+![CT-005](img/Caso-Teste/CT-05/CT-05-001.png)
+
+![CT-005](img/Caso-Teste/CT-05/CT-05-002.png)
+
+
+
+
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
