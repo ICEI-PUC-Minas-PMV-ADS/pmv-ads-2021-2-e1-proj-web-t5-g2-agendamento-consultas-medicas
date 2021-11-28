@@ -50,10 +50,31 @@ O paciente consegue agendar consultas utlizando seu login de acesso, com possibi
 
 ![CadastroLogin](img/RF-06.png)
 
+### Artefatos da funcionalidade
+- panel-paciente.html
+- style-PadraoH.css
+- db-Geral.js
+- logo.png
+
+## Estrutura de Dados
+
+![Index](img/JS-Geral.png)
+
 ## Alteração de dados Médicos (RF-07)
 O administrador consegue alterar informações do medico como: Nome, CPF, Valor, Especialidade, Horário, Jornada, E-mail, Telefone.
 
 ![MeuCadMedico](img/RF-07.png)
+
+### Artefatos da funcionalidade
+- meucadastro-medico.html
+- style-PadraoH.css
+- db-Geral.js
+- logo.png
+
+## Estrutura de Dados
+
+![Index](img/JS-Geral.png)
+
 
 
 > **Links Úteis**:
