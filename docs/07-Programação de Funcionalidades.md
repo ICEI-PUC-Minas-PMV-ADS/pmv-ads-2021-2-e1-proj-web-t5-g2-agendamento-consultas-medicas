@@ -45,8 +45,8 @@ A  tela permite ao usuário que faça um pré-cadastro  preenchendo os requisito
 2. Clica em novo usuario e preenche o formulário.
 
 
-## Painel Paciente (RF-06)
-O paciente consegue agendar consultas utlizando seu login de acesso, com possibilidade de filtrar: Cidades, Especialidade e Convênio, de acordo com suas necessidades.
+## Painel Paciente/ Consultar Médicos (RF-06)
+O paciente consegue agendar consultas utlizando seu login de acesso, com possibilidade de filtrar: Cidades, Especialidade e Convênio.
 
 ![CadastroLogin](img/RF-06.png)
 
