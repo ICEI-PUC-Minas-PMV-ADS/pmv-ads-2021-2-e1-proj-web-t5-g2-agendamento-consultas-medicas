@@ -187,7 +187,7 @@ var db_contatos_inicial = {
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
             "mes": "Março",
-            "status": "Agendado"
+            "status": "Cancelado"
         },
         {
             "id": 4,
