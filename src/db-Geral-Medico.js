@@ -146,286 +146,7 @@ var db_contatos_inicial = {
             "telefone2": "3245-7845"
         }
     ],
-
-
-    paciente: [
-                    
-        {
-            "id": 1,
-            "imagem":'./img/p-01.jpg',
-            "nome": "Fernanda Ferreira",
-            "cpf": "000.000.004-45",
-            "cidade": "Rio de Janeiro",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",          
-            "mes": "Janeiro",
-            "status": "Agendados"
-        },
-        {
-            "id": 2,
-            "imagem":'./img/p-02.jpg',
-            "nome": "Marcos Daniel",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Janeiro",
-            "status": "Agendados"
-        },
-        {
-            "id": 3,
-            "imagem":'./img/p-03.jpg',
-            "nome": "José Henrique",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Março",
-            "status": "Agendados"
-        },
-        {
-            "id": 4,
-            "imagem":'./img/p-04.jpg',
-            "nome": "Maria da Silvia",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Junho",
-            "status": "Agendados"
-        },
-        {
-            "id": 5,
-            "imagem":'./img/p-05.jpg',
-            "nome": "Bruno Oliveira",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Abril",
-            "status": "Agendados"
-        },
-        {
-            "id": 6,
-            "imagem":'./img/p-06.jpg',
-            "nome": "Rodrigo Costa",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Dezembro",
-            "status": "Agendados"
-        },
-        {
-            "id": 7,
-            "imagem":'./img/p-07.jpg',
-            "nome": "Bruno Oliveira",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Abril",
-            "status": "Agendados"
-        },
-        {
-            "id": 8,
-            "imagem":'./img/p-08.jpg',
-            "nome": "Marie P. Irizarry",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Dezembro",
-            "status": "Cancelado"
-        },
-        {
-            "id": 9,
-            "imagem":'./img/p-09.jpg',
-            "nome": "Breno Alves Castro",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Janeiro",
-            "status": "Cancelado"
-        },
-        {
-            "id": 10,
-            "imagem":'./img/p-10.jpg',
-            "nome": "Ryan Barros Rocha",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Março",
-            "status": "Cancelado"
-        },
-        {
-            "id": 11,
-            "imagem":'./img/p-11.jpg',
-            "nome": "Douglas Goncalves",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Junho",
-            "status": "Cancelado"
-        },
-        {
-            "id": 12,
-            "imagem":'./img/p-12.jpg',
-            "nome": "Erick Cardoso",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Abril",
-            "status": "Cancelado"
-        },
-        {
-            "id": 13,
-            "imagem":'./img/p-13.jpg',
-            "nome": "José Fernandes Barros",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Dezembro",
-            "status": "Concluído"
-        },
-        {
-            "id": 14,
-            "imagem":'./img/p-14.jpg',
-            "nome": "Lucas Cardoso Costa",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Abril",
-            "status": "Concluído"
-        },
-        {
-            "id": 15,
-            "imagem":'./img/p-15.jpg',
-            "nome": "José Alves Souza",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Dezembro",
-            "status": "Concluído"
-        },
-        {
-            "id": 16,
-            "imagem":'./img/p-16.jpg',
-            "nome": "Kauan Ribeiro",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Janeiro",
-            "status": "Concluído"
-        },
-        {
-            "id": 17,
-            "imagem":'./img/p-17.jpg',
-            "nome": "Morris V. Parker",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Março",
-            "status": "Concluído"
-        },
-        {
-            "id": 18,
-            "imagem":'./img/p-18.jpg',
-            "nome": "Sofia Sousa Azevedo",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Junho",
-            "status": "Concluído"
-        },
-        {
-            "id": 19,
-            "imagem":'./img/p-19.jpg',
-            "nome": "Alyssa R. Cervantez",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Abril",
-            "status": "Concluído"
-        },
-        {
-            "id": 20,
-            "imagem":'./img/p-20.jpg',
-            "nome": "Sarah J. Bolton",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Dezembro",
-            "status": "Concluído"
-        },
-        {
-            "id": 21,
-            "imagem":'./img/p-21.jpg',
-            "nome": "Danielle J. Kieffer",
-            "cpf": "000.000.004-45",
-            "cidade": "Belo Horizonte",
-            "convenio": "unimed",
-            "email": "sergio-med@gmail.biz",
-            "telefone": "3974-5847",
-            "telefone2": "3974-5874",
-            "mes": "Abril",
-            "status": "Concluído"
-        }
-       
-    ],
-
+    
     horario: [
                     
         {
@@ -452,10 +173,7 @@ var db_contatos_inicial = {
             "id": 6,
             "horario": "16:50 ás 18:00",           
         }
-       
-    ]
-
-
+      ]
 }
 
 // Caso os dados já estejam no Local Storage, caso contrário, carrega os dados iniciais
@@ -475,8 +193,6 @@ function insertContato(contato) {
     if (db.medico.length != 0) 
       novoId = db.medico[db.medico.length - 1].id + 1;
     let novoContato = {
-        
-
             "id": novoId,
             "nome": contato.nome,
             "crm": contato.crm,
@@ -490,7 +206,6 @@ function insertContato(contato) {
             "email": contato.email,
             "telefone": contato.telefone,
             "telefone2": contato.telefone2
-
     };
 
     // Insere o novo objeto no array
@@ -504,7 +219,6 @@ function insertContato(contato) {
 function updateContato(id, contato) {
     // Localiza o indice do objeto a ser alterado no array a partir do seu ID
     let index = db.medico.map(obj => obj.id).indexOf(id);
-
     // Altera os dados do objeto no array
     db.medico[index].nome = contato.nome,
     db.medico[index].crm = contato.crm,
