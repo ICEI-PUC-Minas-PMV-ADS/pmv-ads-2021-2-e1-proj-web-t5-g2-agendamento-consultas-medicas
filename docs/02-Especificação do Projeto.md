@@ -71,7 +71,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-11| **Confirmação de agendamento** - O site deve notificar o paciente confirmando o agendamento.                                                                         |Média| 
 |RF-12|**Pós Consulta Paciente** -  O sistema deve permitir que o cliente faça um comentário a respeito da sua experiência e avalie o médico e a clínica por estrelas, sendo uma para péssimo e cinco para excelente.                                                                                                                                       |Média|    
 |RF-13|**Lembrete Periódico** - O site deve notificar o cliente de 6 em 6 meses informando quando foi a ultima consulta.                                                     |Baixa|
-|RF-14|**Pré consulta Médico/Clínica** - O site deve notificar ao administrador quando efetuado um agendamento informando os dados do paciente, m.                        |Média|
+|RF-14|**Pré consulta Médico/Clínica** - O site deve notificar ao administrador quando efetuado um agendamento informando os dados do paciente.                        |Média|
+|RF-15|**Permitir alterer Dados Paciente/Clínica** - O site deve notificar ao administrador quando efetuado o cadastro de paciente informando os dados,                        |Média|
 
      
 
