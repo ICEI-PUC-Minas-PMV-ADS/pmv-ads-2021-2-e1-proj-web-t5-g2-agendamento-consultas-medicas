@@ -55,7 +55,17 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 ![CT-005](img/Caso-Teste/CT-05/CT-05-002.png)
 
 
+###                     CT-06 Dashboard administrador clicar no botão e visualizar dados
 
+![CT-006](img/Caso-Teste/CT-06/CT-06-001.png)
+
+![CT-006](img/Caso-Teste/CT-06/CT-06-002.png)
+
+![CT-006](img/Caso-Teste/CT-06/CT-06-003.png)
+
+![CT-006](img/Caso-Teste/CT-06/CT-06-004.png)
+
+![CT-006](img/Caso-Teste/CT-06/CT-06-005.png)
 
 
 ## Avaliação
