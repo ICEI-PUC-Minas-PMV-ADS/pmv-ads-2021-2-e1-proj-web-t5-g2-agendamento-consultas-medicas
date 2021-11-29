@@ -200,7 +200,7 @@ var db_contatos_inicial = {
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
             "mes": "Junho",
-            "status": "Agendado"
+            "status": "Concluído"
         },
         {
             "id": 5,
@@ -226,7 +226,7 @@ var db_contatos_inicial = {
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
             "mes": "Dezembro",
-            "status": "Agendado"
+            "status": "Concluído"
         }
        
     ],
