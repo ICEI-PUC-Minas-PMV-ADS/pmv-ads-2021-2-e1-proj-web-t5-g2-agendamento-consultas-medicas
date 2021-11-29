@@ -536,7 +536,7 @@ function deleteContato(id) {
 }
 
 ///////////////////////////Inserir Contato Paciente
-function insertContato(contatoP) {
+function insertContatoP(contatoP) {
     // Calcula novo Id a partir do último código existente no array (PODE GERAR ERRO SE A BASE ESTIVER VAZIA)
     let novoId = 1;
 if (db.paciente.length != 0) 
@@ -564,7 +564,7 @@ displayMessage("Contato inserido com sucesso");
 localStorage.setItem('db_contato', JSON.stringify(db));
 }
 
-function updateContato(id, contatoP) {
+function updateContatoP(id, contatoP) {
 // Localiza o indice do objeto a ser alterado no array a partir do seu ID
 let index = db.paciente.map(obj => obj.id).indexOf(id);
 
@@ -584,7 +584,7 @@ displayMessage("Contato alterado com sucesso");
 localStorage.setItem('db_contato', JSON.stringify(db));
 }
 
-function deleteContato(id) {    
+function deleteContatoP(id) {    
 // Filtra o array removendo o elemento com o id passado
 db.paciente = db.paciente.filter(function (element) { return element.id != id });
 
