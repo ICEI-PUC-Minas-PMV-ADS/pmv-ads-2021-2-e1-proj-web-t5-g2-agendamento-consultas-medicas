@@ -160,7 +160,8 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",          
-            "mes": "Janeiro"         
+            "mes": "Janeiro",
+            "status": "Concluído"
         },
         {
             "id": 2,
@@ -172,7 +173,8 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Janeiro"
+            "mes": "Janeiro",
+            "status": "Cancelado"
         },
         {
             "id": 3,
@@ -196,7 +198,8 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Junho"
+            "mes": "Junho",
+            "status": "Agendado"
         },
         {
             "id": 5,
@@ -208,7 +211,8 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Abril"
+            "mes": "Abril",
+            "status": "Concluído"
         },
         {
             "id": 6,
@@ -220,7 +224,8 @@ var db_contatos_inicial = {
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Dezembro"
+            "mes": "Dezembro",
+            "status": "Agendado"
         }
        
     ],
