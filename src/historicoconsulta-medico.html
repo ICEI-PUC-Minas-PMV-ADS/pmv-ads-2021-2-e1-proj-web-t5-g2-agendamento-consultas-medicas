@@ -67,6 +67,15 @@
                                     <option value="Dezembro">Dezembro</option>
                                 </select>
                             </div>
+                            <div class="col-sm-3">
+                                <select name="filtro_situacao" id="filtro_situacao" onchange="ListaContatos()"
+                                    class="form-select-sm form-control">
+                                    <option value="">Selecione Situação</option>
+                                    <option value="Agendado">Agendado</option>
+                                    <option value="Concluído">Concluído</option>
+                                    <option value="Cancelado">Cancelado</option>
+                                </select>
+                            </div>
                         </div>
                     </form>
                 </section>
@@ -113,6 +122,7 @@
 
             // Obtem os dados informados pelo usuário nos filtros
             let fc = document.getElementById('filtro_mes').value;
+            let fcg = document.getElementById('filtro_situacao').value;
 
             // limpa a lista de contatos apresentados
             $("#table-contatos").empty();
@@ -122,7 +132,8 @@
                 const agendamedico = db.paciente[index];
 
                 // Verifica se os dados do contato batem com os filtros
-               if ((agendamedico.mes == fc) || (fc == '')) {
+                if (((agendamedico.mes == fc) || (fc == '')) &&
+                    ((agendamedico.status == fcg) || (fcg == ''))) {
 
                     // Inclui o contato na tabela    
                     $("#table-contatos").append(`<p class="produto-item"> 
@@ -130,10 +141,8 @@
                                               <img src="${agendamedico.imagem}"><br>
                                                         Paciente: ${agendamedico.nome}<br>
                                                         Consulta: ${agendamedico.mes}<br>
-                                                        Consulta: ${agendamedico.telefone}<br>
+                                                        Situação: ${agendamedico.status}<br>
                                                     </p>`);
-
-
                 }
             }
 
