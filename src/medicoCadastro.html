@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Contatos</title>
+    <link rel="stylesheet" href="style-PadraoH.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body onload="init()">
+    <header>
+        <nav class="menu-principal">
+            <p class="perfil"><a><img src="./img/login-medico.jpg"></a></p>
+            <h5 class="perfil">Administrador</h5>
+            <ul class="nav flex-column">
+                <li><a href="./medicoPainel.html">Painel</a></li>
+
+                <li class='sub-menu'><a href='#cadastro'>Cadastro<div class='fa fa-caret-down right'></div></a>
+                    <ul>
+                        <li><a href='./medicoCadastro.html'>Cadastro de Médicos</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#agendamentos'>Agendamentos<div class='fa fa-caret-down right'></div></a>
+                    <ul>
+                        <li><a href='./medicoAgenda.html'>Consultar Agenda</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#consultas'>Histórico de Consultas<div class='fa fa-caret-down right'>
+                        </div></a>
+                    <ul>
+                        <li><a href='./medicoHistorico.html'>Consultas Finalizadas</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Desconectar</a>
+        </nav>
+    </header>
+
+
+
+
+    <main class="conteudo">
+        <h3>Lista de Médicos: </h3>
+
+        <div class="container">
+            <div class="row">
+                <div id="msg" class="col-sm-10 offset-sm-1 ">
+                    <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+                </div>
+            </div>
+
+            <form id="form-contato">
+                <div class="form-group row">
+                    <div class="col-sm-4">
+                        <label for="inputId">Id</label>
+                        <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+                    </div>
+                    <div class="col-sm-8">
+                        <label for="inputNome">Nome (*)</label>
+                        <input type="text" class="form-control" id="inputNome" required
+                            placeholder="Informe o nome do contato">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="inputCrm">CRM (*)</label>
+                        <input type="text" class="form-control" id="inputCrm" required placeholder="Informe o CRM">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="inputCpf">CPF (*)</label>
+                        <input type="text" class="form-control" id="inputCpf" required
+                            placeholder="Informe o CPF">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-5">
+                        <label for="inputConvenio">Convênio (*)</label>
+                        <input type="text" class="form-control" id="inputConvenio" required placeholder="Convênio">
+                    </div>
+                    <div class="col-sm-5">
+                        <label for="inputEspecialidade">Especialidade (*)</label>
+                        <input type="text" class="form-control" id="inputEspecialidade" required placeholder="Especialidade">
+                    </div>
+                    <div class="col-sm-5">
+                        <label for="inputPreco">Preço (*)</label>
+                        <input type="text" class="form-control" id="inputPreco" required placeholder="Preço">
+                    </div>
+                    <div class="col-sm-5">
+                        <label for="inputTelefone">Telefone (*)</label>
+                        <input type="text" class="form-control" id="inputTelefone" required placeholder="Telefone">
+                    </div>
+                    <div class="col-sm-5">
+                        <label for="inputJornada">Jornada (*)</label>
+                        <input type="text" class="form-control" id="inputJornada" required placeholder="Jornada">
+                    </div>
+                    <div class="col-sm-5">
+                        <label for="inputTelefone2">Telefone (*)</label>
+                        <input type="text" class="form-control" id="inputTelefone2" required placeholder="Telefone">
+                    </div>
+                    <div class="col-sm-5">
+                        <label for="inputHorario">Horario (*)</label>
+                        <input type="text" class="form-control" id="inputHorario" required placeholder="Horario">
+                    </div>
+                    <div class="col-sm-7">
+                        <label for="inputEmail">E-mail (*)</label>
+                        <input type="email" class="form-control" id="inputEmail" required
+                            placeholder="Informe o e-mail">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <label for="inputCidade">Cidade</label>
+                        <input type="text" class="form-control" id="inputCidade"
+                            placeholder="Informe a cidade do contato">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-4">
+                        <small>(*) Campos obrigatórios</small>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-12">
+                        <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!--
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Site</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-contatos">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+-->
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-contatos" class="table table-striped">
+                    <tbody id="table-contatos">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        © Copyright 2021 VirtualMed
+    </footer>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="db-Geral-Medico.js"></script>
+    <script>
+        function exibeContatos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-contatos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.medico.length; i++) {
+                let contato = db.medico[i];
+
+                $("#table-contatos").append(`<ul class="ulmeucadastroMedico">
+                                                    <li scope="row"><p>${contato.id}</p></li><br> 
+                                                    <img class="imgmed" src="${contato.imagem}">
+                                                    <li>Nome: <p>${contato.nome}</p></li><br>
+                                                    <li>CRM: <p>${contato.crm}</p></li><br>
+                                                    <li>CPF: <p>${contato.cpf}</p></li><br>
+                                                    <li>Cidade: <p>${contato.cidade}</p></li><br>
+                                                    <li>Convênio: <p>${contato.convenio}&nbsp</p></li>
+                                                    <li>Especialidade: <p>${contato.especialidade}&nbsp</p></li>
+                                                    <li>Preço: <p>${contato.preco}</p></li><br>
+                                                    <li>Jornada: <p>${contato.jornada}&nbsp &nbsp &nbsp</p></li>
+                                                    <li>Horario: <p>${contato.horario}</p></li><br>
+                                                    <li>E-mail: <p>${contato.email}&nbsp</p></li>
+                                                    <li>Telefone: <p>${contato.telefone}&nbsp &nbsp &nbsp</p></li>
+                                                    <li>Telefone: <p>${contato.telefone2}</p></li>
+                                                </ul>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-contato')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoNome = $("#inputNome").val();
+                let campoCrm = $("#inputCrm").val();
+                let campoCpf = $("#inputCpf").val();
+                let campoCidade = $("#inputCidade").val();
+                let campoConvenio = $("#inputConvenio").val();
+                let campoEspecialidade = $("#inputEspecialidade").val();
+                let campoPreco = $("#inputPreco").val();
+                let campoJornada = $('#inputJornada').val();
+                let campoHorario = $("#inputHorario").val();
+                let campoEmail = $('#inputEmail').val();
+                let campoTelefone = $('#inputTelefone').val();
+                let campoTelefone2 = $('#inputTelefone2').val();
+
+
+                let contato = {
+                    nome: campoNome,
+                    crm: campoCrm,
+                    cnpjcpf: campoCpf,
+                    cidade: campoCidade,
+                    convenio: campoConvenio,
+                    especialidade: campoEspecialidade,
+                    preco: campoPreco,
+                    jornada: campoJornada,
+                    horario: campoHorario,
+                    email: campoEmail,
+                    telefone: campoTelefone,
+                    telefone2: campoTelefone
+                };
+
+                insertContato(contato);
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato para ser alterado.");
+                    return;
+                }
+                let campoNome = $("#inputNome").val();
+                let campoCrm = $("#inputCrm").val();
+                let campoCpf = $("#inputCpf").val();
+                let campoCidade = $("#inputCidade").val();
+                let campoConvenio = $("#inputConvenio").val();
+                let campoEspecialidade = $("#inputEspecialidade").val();
+                let campoPreco = $("#inputPreco").val();
+                let campoJornada = $('#inputJornada').val();
+                let campoHorario = $("#inputHorario").val();
+                let campoEmail = $('#inputEmail').val();
+                let campoTelefone = $('#inputTelefone').val();
+                let campoTelefone2 = $('#inputTelefone2').val();
+
+
+                let contato = {
+                    nome: campoNome,
+                    crm: campoCrm,
+                    cpf: campoCpf,
+                    cidade: campoCidade,
+                    convenio: campoConvenio,
+                    especialidade: campoEspecialidade,
+                    preco: campoPreco,
+                    jornada: campoJornada,
+                    horario: campoHorario,
+                    email: campoEmail,
+                    telefone: campoTelefone,
+                    telefone2: campoTelefone
+                };
+
+                updateContato(parseInt(campoId), contato);
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Excluir
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato a ser excluído.");
+                    return;
+                }
+                deleteContato(parseInt(campoId));
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Listar Contatos
+            $("#btnClear").click(function () {
+                $("#form-contato")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-contatos").on("click", "ul", function (e) {
+                let linhaContato = this;
+                colunas = linhaContato.querySelectorAll("p");
+
+                $("#inputId").val(colunas[0].innerText);
+                $("#inputNome").val(colunas[1].innerText);
+                $("#inputCrm").val(colunas[2].innerText);
+                $("#inputCpf").val(colunas[3].innerText);
+                $("#inputCidade").val(colunas[4].innerText);
+                $("#inputConvenio").val(colunas[5].innerText);
+                $("#inputEspecialidade").val(colunas[6].innerText);
+                $("#inputPreco").val(colunas[7].innerText);
+                $('#inputJornada').val(colunas[8].innerText);
+                $("#inputHorario").val(colunas[9].innerText);
+                $('#inputEmail').val(colunas[10].innerText);
+                $('#inputTelefone').val(colunas[11].innerText);
+                $('#inputTelefone2').val(colunas[12].innerText);
+            });
+            exibeContatos();
+        }
+    </script>
+</body>
+
+</html>
