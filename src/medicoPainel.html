@@ -78,11 +78,17 @@
                                 visualizar</button>
                             </div>
                           </div>
+                        <div class="card bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Local Storage</div>
+                            <div class="card-body">
+                              <h5 class="card-title"></h5>
+                              <p class="card-text"></p>
+                              <p><button onclick="clearClick(1)">Limpar DB</button></p>
+                            </div>
+                          </div>
                     </section>
                 </div>
             </div>
-
-
         </div>
     </main>
 
@@ -104,9 +110,11 @@
         });
     </script>
     <!-- Funcao do menu-->
-
-
-
+    <script>
+        //clear data function
+        function clearClick(number) {
+            localStorage.clear();
+        }
+    </script>
 </body>
-
 </html>
