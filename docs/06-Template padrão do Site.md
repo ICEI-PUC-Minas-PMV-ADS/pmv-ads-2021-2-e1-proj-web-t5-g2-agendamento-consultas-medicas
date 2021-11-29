@@ -26,7 +26,7 @@ Layout com a exibição todas as visualizações iniciais do site, menu com pain
                 
                 
 ## Painel Médico
-Layout com a exibição todas as visualizações iniciais do site, menu com painel de busca, editar meu cadastro, consultar agenda e historico de consultas.  Conforme figura 2.
+Layout com a exibição de um dashboard com quantidades de consultas concluídas, marcadas e canceladas, além do menu com mesmo padrão do paciente.  Conforme figura 3.
 
 ![Index-Paciente](img/01-Tela-Inicial-Medico-On.png)
 
