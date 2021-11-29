@@ -153,7 +153,7 @@ var db_contatos_inicial = {
         {
             "id": 1,
             "imagem":'./img/p-01.jpg',
-            "nome": "José Henrique",
+            "nome": "Fernanda Ferreira",
             "cpf": "000.000.004-45",
             "cidade": "Rio de Janeiro",
             "convenio": "unimed",
@@ -179,19 +179,20 @@ var db_contatos_inicial = {
         {
             "id": 3,
             "imagem":'./img/p-03.jpg',
-            "nome": "Fernanda Ferreira",
+            "nome": "José Henrique",
             "cpf": "000.000.004-45",
             "cidade": "Belo Horizonte",
             "convenio": "unimed",
             "email": "sergio-med@gmail.biz",
             "telefone": "3974-5847",
             "telefone2": "3974-5874",
-            "mes": "Março"
+            "mes": "Março",
+            "status": "Agendado"
         },
         {
             "id": 4,
             "imagem":'./img/p-04.jpg',
-            "nome": "Guilherme Mateus",
+            "nome": "Maria da Silvia",
             "cpf": "000.000.004-45",
             "cidade": "Belo Horizonte",
             "convenio": "unimed",
