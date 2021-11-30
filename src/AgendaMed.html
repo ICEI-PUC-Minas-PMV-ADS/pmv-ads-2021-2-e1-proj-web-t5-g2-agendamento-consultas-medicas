@@ -81,13 +81,11 @@
                     <th scope="col">Data</th>
                     <th scope="col">hora</th>
                     <th scope="col">consulta</th>
-                    <th scope="col">medico</th>
                   </tr>
                 </thead>
                 <tbody id="table-contatos">
                   <tr>
                     <td scope="row">1</td>
-                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -120,10 +118,7 @@
                                                         ? contato.hora
                                                         : "-----"
                                                     }</td>
-                                                    <td>${contato.cidade}</td>
-                                                    <td>${
-                                                      contato.categoria
-                                                    }</td>                                        
+                                                    <td>${contato.cidade}</td>                                       
                                                 </tr>`);
             }
           }
@@ -142,13 +137,11 @@
               let campoEmail = $("#inputEmail").val();
               let campoHora = $("#inputHora");
               let campoCidade = $("#inputCidade").val();
-              let campoCategoria = $("#inputCategoria").val();
               let contato = {
                 nome: campoNome,
                 email: campoEmail,
                 hora: campoHora,
                 cidade: campoCidade,
-                categoria: campoCategoria,
               };
 
               insertContato(contato);
@@ -172,13 +165,11 @@
               let campoEmail = $("#inputEmail").val();
               let campoHora = $("#inputHora").val();
               let campoCidade = $("#inputCidade").val();
-              let campoCategoria = $("#inputCategoria").val();
               let contato = {
                 nome: campoNome,
                 email: campoEmail,
                 hora: campoHora,
                 cidade: campoCidade,
-                categoria: campoCategoria,
               };
 
               updateContato(parseInt(campoId), contato);
