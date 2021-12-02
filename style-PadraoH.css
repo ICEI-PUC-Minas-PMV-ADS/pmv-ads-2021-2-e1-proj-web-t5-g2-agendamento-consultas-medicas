@@ -1,0 +1,282 @@
+/* Inicio Conteudo */
+.imglogo{
+    height: 120px;
+    padding: 10px;
+
+}
+h3{
+    padding-top: 90px;
+    text-align: left;
+}
+#form-contato{
+    padding-top: 10px;
+}
+.produto-item{ 
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-right: 205px;
+    width: 350px;
+    flex-flow:row wrap;
+    float: right;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px 
+}
+.ulmeucadastroMedico{
+    display: inline-block;
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 300px;
+    padding:5px;
+}
+.imgmed{
+    float: left;
+
+}
+.ulmeucadastroMedico > li{
+    list-style:none;
+    display:inline-table;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.ulmeucadastroMedico >li > p{
+    font-size: 11px;
+    font-weight: normal;
+    display: list-item;
+    
+/*
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display:inline-table;
+    float: left;*/
+    
+
+}
+.ulmeucadastroMedico > li{
+
+
+
+}
+.btn{
+    margin-left: 270px;
+    margin-bottom: 10px;
+}
+.conteudo{
+    background-color: #BAC5DF;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "periferico"
+    "rodape";
+    grid-gap:5px 0px;
+}
+
+
+
+
+/* Fim conteudo */
+
+
+/* Menu Vertical */
+.perfil {
+	text-align: center;
+    margin-top: 40px;
+}
+.menu-principal{
+
+}
+.menu-principal > ul > li{
+    display: block;
+    padding: 8px;
+    list-style: none;
+    text-align: center;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+  /* Sub Menu */
+}
+nav ul li a {
+	display: block;
+	padding: 10px 15px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover {
+	background: #1d4f71;
+	color: #fff;
+}
+
+nav ul ul {
+	background: rgba(0, 0, 0, 0.2);
+}
+nav ul li ul li a {
+	
+	border-left: 4px solid transparent;
+	padding: 10px 20px;
+}
+nav ul li ul li a:hover {
+
+	border-left: 4px solid #3498db;
+}
+.btndesc{
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+/* Fim Menu Vertical */
+
+footer{
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    background-color: #6d6f75;
+}
+.card{
+    padding: 5px;
+    text-align: center;
+    margin-top: 205px;
+    margin-left: 100px;
+    display: grid;
+    float: left;
+}
+
+@media(min-width:700px){
+
+    .conteudo{
+        display:flex;
+        flex-flow: wrap row;
+            grid-template-columns: 0px 1fr auto;
+            grid-template-rows: 0px 1fr 0px;
+            grid-template-areas: 
+            "cabecalho cabecalho"
+            "periferico conteudo "
+            "rodape rodape";
+            grid-gap:5px 20px;
+        /*
+        min-width: 50px;
+        width: 85%;
+        float:right;
+        background-color: #BAC5DF;
+        */
+    }
+
+
+    /* Inicio Conteudo */
+.imglogo{
+    height: 120px;
+    padding: 10px;
+
+}
+h3{
+    padding-top: 90px;
+    text-align: left;
+}
+#form-contato{
+    padding-top: 10px;
+}
+.produto-item{ 
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 250px;
+    min-width: 50px;
+    flex-flow: row;
+    flex-wrap: wrap;
+    float: left;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+}
+.btn{
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* Fim conteudo */
+
+
+/* Menu Vertical */
+.perfil {
+	text-align: center;
+    margin-top: 40px;
+}
+.menu-principal{
+    flex-flow:row wrap;
+    float: left;
+    width: 205px;
+    height: 100%;
+    background-color:white;
+
+}
+
+.menu-principal > ul > li{
+    display: block;
+    padding: 8px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+  /* Sub Menu */
+}
+nav ul li a {
+	display: block;
+	padding: 10px 15px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover {
+	background: #1d4f71;
+	color: #fff;
+}
+
+nav ul ul {
+	background: rgba(0, 0, 0, 0.2);
+}
+nav ul li ul li a {
+	
+	border-left: 4px solid transparent;
+	padding: 10px 20px;
+}
+nav ul li ul li a:hover {
+
+	border-left: 4px solid #3498db;
+}
+.btndesc{
+    margin-top: 80px;
+    margin-right: 45px;
+}
+
+/* Fim Menu Vertical */
+
+footer{
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    background-color: #6d6f75;
+}
+
+}
