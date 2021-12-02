@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Contatos</title>
+    <link rel="stylesheet" href="style-PadraoH.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body onload="ListaContatos()">
+    <header>
+
+        <nav class="menu-principal">
+            <p class="perfil"><a><img src="./img/login-medico.jpg"></a></p>
+            <h5 class="perfil">Administrador</h5>
+            <ul class="nav flex-column">
+                <li><a href="./medicoPainel.html">Painel</a></li>
+
+                <li class='sub-menu'><a href='#cadastro'>Cadastro<div class='fa fa-caret-down right'></div></a>
+                    <ul>
+                        <li><a href='./medicoCadastro.html'>Cadastro de Médicos</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#agendamentos'>Agendamentos<div class='fa fa-caret-down right'></div></a>
+                    <ul>
+                        <li><a href='./medicoAgenda.html'>Consultar Agenda</a></li>
+                    </ul>
+                </li>
+                <li class='sub-menu'><a href='#consultas'>Histórico de Consultas<div class='fa fa-caret-down right'>
+                        </div></a>
+                    <ul>
+                        <li><a href='./medicoHistorico.html'>Consultas Finalizadas</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Desconectar</a>
+
+        </nav>
+    </header>
+
+    <main class="conteudo">
+
+        <div class="container">
+            <div class="row">
+                <div id="msg" class="col-sm-10 offset-sm-1 ">
+                    <img class="rounded mx-auto d-block imglogo" src="./logo.png" alt="logo">
+                    <section>
+                        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Agendados</div>
+                            <div class="card-body">
+                              <h5 class="card-title">15</h5>
+                              <p class="card-text"></p>
+                              <button onclick="location.href='./medicoAgenda.html'" type="button">
+                                visualizar</button>
+                            </div>
+                          </div>
+                          
+                          <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Concluidas</div>
+                            <div class="card-body">
+                              <h5 class="card-title">185</h5>
+                              <p class="card-text"></p>
+                              <button onclick="location.href='./medicoHistorico.html'" type="button">
+                                visualizar</button>
+                            </div>
+                          </div>
+                          <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Cancelados</div>
+                            <div class="card-body">
+                              <h5 class="card-title">23</h5>
+                              <p class="card-text"></p>
+                              <button onclick="location.href='./medicoHistorico.html'" type="button">
+                                visualizar</button>
+                            </div>
+                          </div>
+                        <div class="card bg-light mb-3" style="max-width: 18rem;">
+                            <div class="card-header">Local Storage</div>
+                            <div class="card-body">
+                              <h5 class="card-title"></h5>
+                              <p class="card-text"></p>
+                              <p><button onclick="clearClick(1)">Limpar DB</button></p>
+                            </div>
+                          </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        © Copyright 2021 VirtualMed
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+
+    <!-- Funcao do menu-->
+    <script>
+        $('.sub-menu ul').hide();
+        $(".sub-menu a").click(function () {
+            $(this).parent(".sub-menu").children("ul").slideToggle("100");
+            $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+        });
+    </script>
+    <!-- Funcao do menu-->
+    <script>
+        //clear data function
+        function clearClick(number) {
+            localStorage.clear();
+        }
+    </script>
+</body>
+</html>
