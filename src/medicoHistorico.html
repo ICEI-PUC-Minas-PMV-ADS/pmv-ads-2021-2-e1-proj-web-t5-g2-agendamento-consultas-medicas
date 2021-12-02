@@ -127,7 +127,7 @@
             $('#msg').html('<div class="alert alert-warning">' + msg + '</div>');
         }
     </script>
-    <script>
+     <script>
         // função para listar na tabela os contatos que estão associados aos filtros 
         function ListaContatos() {
 
@@ -139,21 +139,25 @@
             $("#table-contatos").empty();
 
             // Popula a tabela com os registros do banco de dados
-            for (let index = 0; index < db.paciente.length; index++) {
-                const agendamedico = db.paciente[index];
+            for (i = 0; i < db.paciente.length; i++) {
+                let agendamedico = db.paciente[i];
 
-                // Verifica se os dados do contato batem com os filtros
-                if (((agendamedico.mes == fc) || (fc == '')) &&
-                    ((agendamedico.status == fcg) || (fcg == ''))) {
+                if ((agendamedico.status == "Concluído") || (agendamedico.status == "Cancelado")) {
 
-                    // Inclui o contato na tabela    
-                    $("#table-contatos").append(`<p class="produto-item"> 
+
+                    // Verifica se os dados do contato batem com os filtros
+                    if (((agendamedico.mes == fc) || (fc == '')) &&
+                        ((agendamedico.status == fcg) || (fcg == ''))) {
+
+                        // Inclui o contato na tabela    
+                        $("#table-contatos").append(`<p class="produto-item"> 
                         
                                               <img src="${agendamedico.imagem}"><br>
                                                         Paciente: ${agendamedico.nome}<br>
                                                         Consulta: ${agendamedico.mes}<br>
                                                         Situação: ${agendamedico.status}<br>
                                                     </p>`);
+                    }
                 }
             }
 
