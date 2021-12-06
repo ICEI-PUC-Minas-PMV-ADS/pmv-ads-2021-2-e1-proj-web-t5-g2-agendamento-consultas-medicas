@@ -188,7 +188,7 @@ footer {
 
     /* Inicio Conteudo */
     .imglogo {
-        height: 120px;
+        height: 160px;
         padding: 10px;
 
     }
@@ -294,6 +294,8 @@ footer {
         margin-right: 45px;
     }
 
+   
+
     /* Fim Menu Vertical */
 
     footer {
@@ -307,12 +309,30 @@ footer {
 
 .manha {
     
+    text-align: center;
+    padding: 10px; 
     float: left;
 }
 
 
 .tarde{
-
-    float: right;
+    text-align: center;
+    padding: 10px;
+    float: center;
     
 }
+
+
+
+/*.card-body {
+
+      
+   
+}
+
+.card {
+   
+    
+}
+*/
+
