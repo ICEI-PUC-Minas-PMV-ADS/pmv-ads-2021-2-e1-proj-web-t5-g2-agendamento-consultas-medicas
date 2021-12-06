@@ -2,110 +2,222 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agendamentos</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style-PadraoH.css">
-    <script src="dbfake.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamentos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style_agendar_horario_paciente.css">
 </head>
 
-<body>
+<body onload="ListaContatos()">
+  <header>
+    <nav class="menu-principal">
+      <p class="perfil"><a><img src="./img/login-paciente (1).jpg"></a></p>
+      <h5 class="perfil">Paciente</h5>
+      <ul class="nav flex-column">
+        <li><a href="./pacientePainel.html">Painel</a></li>
 
-    <header>
+        <li class='sub-menu'><a href='#cadastro'>Cadastro<div class=''></div></a>
+          <ul>
+            <li><a href='#cadastro'>Meus Dados</a></li>
+          </ul>
+        </li>
+        <li class='sub-menu'><a href='#agendamentos'>Agendamentos<div class=''></div></a>
+          <ul>
+            <li><a href='#agendamentos'>Consultar Agenda</a></li>
+          </ul>
+        </li>
+        <li class='sub-menu'><a href='#consultas'>Histórico de Consultas<div class=''>
+            </div></a>
+          <ul>
+            <li><a href='#consultas'>Consultas Finalizadas</a></li>
+          </ul>
+        </li>
+      </ul>
 
-        <nav class="menu-principal">
-            <p class="perfil"><a><img src="./img/login-paciente.jpg"></a></p>
-            <h5 class="perfil">Paciente</h5>
-            <ul class="nav flex-column">
-                <li><a href="./panel-paciente.html">Painel</a></li>
+      <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Desconectar</a>
 
-                <li class='sub-menu'><a href='#cadastro'>Cadastro<div class=''></div></a>
-                    <ul>
-                        <li><a href='#cadastro'>Meus Dados</a></li>
-                    </ul>
-                </li>
-                <li class='sub-menu'><a href='#agendamentos'>Agendamentos<div class=''></div></a>
-                    <ul>
-                        <li><a href='#agendamentos'>Consultar Agenda</a></li>
-                    </ul>
-                </li>
-                <li class='sub-menu'><a href='#consultas'>Histórico de Consultas<div class=''>
-                        </div></a>
-                    <ul>
-                        <li><a href='#consultas'>Consultas Finalizadas</a></li>
-                    </ul>
-                </li>
-            </ul>
-
-            <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Desconectar</a>
-
-        </nav>
-    </header>
+    </nav>
+  </header>
 
 
 
-    <main class="conteudo">
-        <div class="container">
-            <div id="msg" class="col-sm-10 offset-sm-1 ">
-                <img class="rounded mx-auto d-block imglogo" src="./logo.png" alt="logo">
+  <main class="conteudo">
+    <div class="container">
+      <div id="msg" class="col-sm-6 offset-sm-1 ">
+        <img class="rounded mx-auto d-block imglogo" src="./img/logo.png" alt="logo">
+      </div><br>
+
+
+      <div class="agendar">
+        <h4>Agendar Horário</h4>
+      </div>
+      <br><br><div class="form-group row dd">
+        <div class="col-sm-3">
+          <label for="inputDate">
+            Selecione a data:
+          </label><br>
+          <input type="date" class="form-control" id="filto_data" name="filto_data" required placeholder="Informe a data"onchange="ListaContatos()">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <section>
+
+                <div name="filtro_manha" id="filtro_manha" onchange="ListaContatos()" class="card-body">
+                  <h5>Horário manhã</h5>
+                  <input type="radio" name="horario" value="08:00 ás 08:30">08:00 ás 08:30<br>
+                  <input type="radio" name="horario" value="08:30 ás 09:00">08:30 ás 09:00<br>
+                  <input type="radio" name="horario" value="09:00 ás 09:30">09:00 ás 09:30<br>
+                  <input type="radio" name="horario" value="09:30 ás 10:00">09:30 ás 10:00<br>
+                  <input type="radio" name="horario" value="10:00 ás 10:30">10:00 ás 10:30<br>
+                  <input type="radio" name="horario" value="10:30 ás 11:00">10:30 ás 11:00<br>
+                  <input type="radio" name="horario" value="11:00 ás 11:30">11:00 ás 11:30<br>
+                  <input type="radio" name="horario" value="11:30 ás 12:00">11:30 ás 12:00<br>
+                  <input type="radio" name="horario" value="12:00 ás 12:30">12:00 ás 12:30<br>
+                  <input type="radio" name="horario" value="12:30 ás 13:00">12:30 ás 13:00<br>
+                </div>
+              </section>
             </div>
-            <div class="row">
-                <section>
-                    <div id="hm" class="manha">
-                        <h3>Horário manha</h3>
-                        <input type="radio" name="horario da manha" value="08:00 ás 08:30">08:00 ás 08:30<br>
-                        <input type="radio" name="horario da manha" value="08:30 ás 09:00">08:30 ás 09:00<br>
-                        <input type="radio" name="horario da manha" value="09:00 ás 09:30">09:00 ás 09:30<br>
-                        <input type="radio" name="horario da manha" value="09:30 ás 10:00">09:30 ás 10:00<br>
-                        <input type="radio" name="horario da manha" value="10:00 ás 10:30">10:00 ás 10:30<br>
-                        <input type="radio" name="horario da manha" value="10:30 ás 11:00">10:30 ás 11:00<br>
-                        <input type="radio" name="horario da manha" value="11:00 ás 11:30">11:00 ás 11:30<br>
-                        <input type="radio" name="horario da manha" value="11:30 ás 12:00">11:30 ás 12:00<br>
-                        <input type="radio" name="horario da manha" value="12:00 ás 12:30">12:00 ás 12:30<br>
-                        <input type="radio" name="horario da manha" value="12:30 ás 13:00">12:30 ás 13:00<br>
-                        <br>
-                    </div>
-                </section>
-                <section>
-                    
-                    <div id="ht" class="tarde">
-                            <h3>Horário tarde</h3>
-                            
-                            <input type="radio" name="horario da manha" value="13:00 ás 13:30">13:00 ás 13:30<br>
-                            <input type="radio" name="horario da manha" value="13:30 ás 14:00">13:30 ás 14:00<br>
-                            <input type="radio" name="horario da manha" value="14:00 ás 14:30">14:00 ás 14:30<br>
-                            <input type="radio" name="horario da manha" value="14:30 ás 15:00">14:30 ás 15:00<br>
-                            <input type="radio" name="horario da manha" value="15:00 ás 15:30">15:00 ás 15:30<br>
-                            <input type="radio" name="horario da manha" value="15:30 ás 16:00">15:30 ás 16:00<br>
-                            <input type="radio" name="horario da manha" value="16:00 ás 16:30">16:00 ás 16:30<br>
-                            <input type="radio" name="horario da manha" value="16:30 ás 17:00">16:30 ás 17:00<br>
-                            <input type="radio" name="horario da manha" value="17:00 ás 17:30">17:00 ás 17:30<br>
-                            <input type="radio" name="horario da manha" value="17:30 ás 18:00">17:30 ás 18:00<br>
-                            <br>
-                        
-                    </div><br>
-                    
-                    <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Voltar</a>
-            </div>
+          </div>
 
         </div>
-    </main>
+
+        <div class="col-sm-3">
+
+          <div class="card">
+
+            <div class="card-body">
+
+              <section>
+
+                <div name="filtro_tarde" id="filtro_tarde" onchange="ListaContatos()" class="card-body">
 
 
-    <footer>
-        Copyright 2021 (C) VirtualMed
-    </footer>
+                  <h5>Horário tarde</h5>
 
-    <script>
-        let prods = '';
-        for (i = 0; i < db.dados.length; i++) {
-            prods += `("Horário da Manhã"),("Horário da Tarde") : ${db.dados[i].Horário}`
-        }
-        document.getElementById('hm'), ('ht').innerHTML = prods;
+                  <input type="radio" name="horario" value="13:00 ás 13:30">13:00 ás 13:30<br>
+                  <input type="radio" name="horario" value="13:30 ás 14:00">13:30 ás 14:00<br>
+                  <input type="radio" name="horario" value="14:00 ás 14:30">14:00 ás 14:30<br>
+                  <input type="radio" name="horario" value="14:30 ás 15:00">14:30 ás 15:00<br>
+                  <input type="radio" name="horario" value="15:00 ás 15:30">15:00 ás 15:30<br>
+                  <input type="radio" name="horario" value="15:30 ás 16:00">15:30 ás 16:00<br>
+                  <input type="radio" name="horario" value="16:00 ás 16:30">16:00 ás 16:30<br>
+                  <input type="radio" name="horario" value="16:30 ás 17:00">16:30 ás 17:00<br>
+                  <input type="radio" name="horario" value="17:00 ás 17:30">17:00 ás 17:30<br>
+                  <input type="radio" name="horario" value="17:30 ás 18:00">17:30 ás 18:00<b>
+
+                </div>
+              </section>
+
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <a class="btn btn-secondary btn-sm btndesc" href="./index.html" role="button">Desconectar</a>
+            <a class="btn btn-secondary btn-sm btndesc" href="./agendarhorario" role="button">Cancelar</a>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12">
+              <table id="grid-contatos" class="table table-striped">
+                <tbody id="table-contatos">
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div><br>
+
+    </div>
+
+    </div>
+
+  </main>
+
+
+  <footer>
+    Copyright 2021 (C) VirtualMed
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
+  <!-- Funcao do menu-->
+  <script>
+    $('.sub-menu ul').hide();
+    $(".sub-menu a").click(function () {
+      $(this).parent(".sub-menu").children("ul").slideToggle("100");
+      $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+    });
+  </script>
+  <!-- Funcao do menu-->
+
+  <script src="db-VirtualMed.js"></script>
+  <script>
+    // Caso os dados já estejam no Local Storage, caso contrário, carrega os dados iniciais
+    var db = JSON.parse(localStorage.getItem('db_contato'));
+    if (!db) {
+      db = db_contatos_inicial
+    };
+
+    // Exibe mensagem em um elemento de ID msg
+    function displayMessage(msg) {
+      $('#msg').html('<div class="alert alert-warning">' + msg + '</div>');
+    }
+  </script>
+  <script>
+    // função para listar na tabela os contatos que estão associados aos filtros 
+    function ListaContatos() {
+
+      // Obtem os dados informados pelo usuário nos filtros
+      let fc = document.getElementById('filto_data').value;
+      //let fc = document.getElementById('filtro_manha').value;
+      //let fc = document.getElementById('filtro_tarde').value;
+
+
+
+      // limpa a lista de contatos apresentados
+      $("#table-contatos").empty();
+
+      // Popula a tabela com os registros do banco de dados
+      for (let index = 0; index < db.medico.length; index++) {
+        const contato = db.medico[index];
+
+        // Verifica se os dados do contato batem com os filtros
+        if (((contato.data == fc) || (fc == '')) &&
+        ((contato.manha == fc) || (fc == '')) &&
+        ((contato.tarde == fc) || (fc == ''))
+        ) {
+
+          // Inclui o contato na tabela    
+          $("#table-contatos").append(`<div class="produto-item"> 
+                        
+                                              <img src="${contato.imagem}">
+                                                        ${contato.nome}<br>
+                                                        Especialidade: ${contato.especialidade}<br>
+                                                        Horario: ${contato.horario}
+                                                        <a class="btn btn-outline-secondary btn-sm" href="./agendarhorario.html" role="button">Agendar</a>
+                                                    </div>`);
+
+        }
+      }
+
+    }
+  </script>
+
+
+</body>
 
 
 </html>
