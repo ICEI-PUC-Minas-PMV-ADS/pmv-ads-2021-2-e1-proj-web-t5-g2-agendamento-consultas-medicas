@@ -39,7 +39,7 @@ body {
   background-color: turquoise;
 }
 
-nav {
+/*nav {
   background-color: #ffffff;
   display: flex;
   width: auto;
@@ -47,7 +47,7 @@ nav {
   flex-grow: initial;
   font-family: "Lato";
   font-size: 18px;
-}
+}*/
 
 ul,
 ol {
@@ -135,7 +135,7 @@ p {
 .direction {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-content: center;
 }
 

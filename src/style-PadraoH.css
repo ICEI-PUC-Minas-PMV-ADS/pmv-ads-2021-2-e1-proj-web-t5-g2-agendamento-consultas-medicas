@@ -144,14 +144,6 @@ footer{
     clear: both;
     background-color: #6d6f75;
 }
-.card{
-    padding: 5px;
-    text-align: center;
-    margin-top: 205px;
-    margin-left: 100px;
-    display: grid;
-    float: left;
-}
 
 @media(min-width:700px){
 
