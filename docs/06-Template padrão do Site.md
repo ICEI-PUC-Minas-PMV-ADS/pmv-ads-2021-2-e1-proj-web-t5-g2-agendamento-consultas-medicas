@@ -2,7 +2,7 @@
 
 O  padrão  de  layout  a  ser  utilizado  pelo  site  tem  correspondência  ao  projeto  de  Interface 
 elaborado anteriormente.
-O template criado está disponível no site https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/src/index.html.....  ou https://virtualmed.hugokioshi.repl.co/ e é composto pelos seguintes 
+O template criado está disponível no site https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g2-agendamento-consultas-medicas/src/index.html.....  e é composto pelos seguintes 
 layouts: 
 - Tela principal
 - Painel Paciente
