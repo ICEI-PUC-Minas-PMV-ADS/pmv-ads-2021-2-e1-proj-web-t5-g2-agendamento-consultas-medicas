@@ -319,7 +319,8 @@ var db_contatos_inicial = {
             "horario": "08:00 a 11:00 13:00 a 16:00",
             "email": "luz-or@gmail.com",
             "telefone": "3826-1638",
-            "telefone2": "3826-2045"
+            "telefone2": "3826-2045",
+            "ano": "2019"
         },
         {
             "id": 2,
@@ -335,7 +336,8 @@ var db_contatos_inicial = {
             "horario": "08:00 a 11:00 13:00 a 16:00",
             "email": "drmarcos@yahoo.com.br",
             "telefone": "3245-7812",
-            "telefone2": "3245-7845"
+            "telefone2": "3245-7845",
+            "ano": "2019"
         },
         {
             "id": 3,
@@ -351,7 +353,8 @@ var db_contatos_inicial = {
             "horario": "08:00 a 11:00 13:00 a 16:00",
             "email": "marina-ort@april.br",
             "telefone": "3245-7812",
-            "telefone2": "3245-7845"
+            "telefone2": "3245-7845",
+            "ano": "2019"
         },
         {
             "id": 4,
@@ -367,7 +370,8 @@ var db_contatos_inicial = {
             "horario": "08:00 a 11:00 13:00 a 16:00",
             "email": "drabucker@gmail.com",
             "telefone": "3245-7812",
-            "telefone2": "3245-7845"
+            "telefone2": "3245-7845",
+            "ano": "2020"
         },
         {
             "id": 5,
@@ -383,7 +387,8 @@ var db_contatos_inicial = {
             "horario": "08:00 a 11:00 13:00 a 16:00",
             "email": "drabucker@gmail.com",
             "telefone": "3245-7812",
-            "telefone2": "3245-7845"
+            "telefone2": "3245-7845",
+            "ano": "2020"
         },
         {
             "id": 6,
@@ -399,7 +404,8 @@ var db_contatos_inicial = {
             "horario": "08:00 a 11:00 13:00 a 16:00",
             "email": "drabucker@gmail.com",
             "telefone": "3245-7812",
-            "telefone2": "3245-7845"
+            "telefone2": "3245-7845",
+            "ano": "2020"
         },
         {
             "id": 7,
@@ -415,7 +421,8 @@ var db_contatos_inicial = {
             "horario": "08:00 a 11:00 13:00 a 16:00",
             "email": "drabucker@gmail.com",
             "telefone": "3245-7812",
-            "telefone2": "3245-7845"
+            "telefone2": "3245-7845",
+            "ano": "2021"
         },
         {
             "id": 8,
@@ -431,7 +438,8 @@ var db_contatos_inicial = {
             "horario": "08:00 a 11:00 13:00 a 16:00",
             "email": "drabucker@gmail.com",
             "telefone": "3245-7812",
-            "telefone2": "3245-7845"
+            "telefone2": "3245-7845",
+            "ano": "2021"
         },
         {
             "id": 9,
@@ -447,7 +455,8 @@ var db_contatos_inicial = {
             "horario": "08:00 a 11:00 13:00 a 16:00",
             "email": "drabucker@gmail.com",
             "telefone": "3245-7812",
-            "telefone2": "3245-7845"
+            "telefone2": "3245-7845",
+            "ano": "2021"
         }
     ]
 
